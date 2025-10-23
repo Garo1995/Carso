@@ -1,0 +1,864 @@
+.bread-caps{
+    margin-top: 16px;
+}
+.bread-caps ul{
+    gap: 34px;
+    display: flex;
+    align-items: center;
+}
+.bread-caps ul li, .bread-caps ul a{
+    color: #9AACBA;
+    font-family: "Manrope";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    position: relative;
+}
+.bread-caps ul li + li:after{
+    content: url("../img/icons/bread-arrw.svg");
+    position: absolute;
+    left: -22px;
+    top: 1px;
+}
+
+
+.used-car-sec{
+    margin: 46px 0 0;
+}
+.used-car-flex{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 40px;
+}
+.used-car-block{
+    max-width: 850px;
+    width: 100%;
+}
+.used-car-block h1{
+    color: #132435;
+}
+.used-car-block h4{
+    font-family: "Manrope";
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    color: #9AACBA;
+}
+.used-car-rel{
+    position: relative;
+    margin-top: 36px;
+    max-width: 815px;
+    width: 100%;
+}
+.used-car-block .fuel-consump__numb strong {
+    color: #132435;
+}
+
+.used-car-block .fuel-consump {
+    margin: 18px 0 0;
+    justify-content: space-between;
+}
+
+
+.used-car-cnt{
+    background: #132435;
+    max-width: 447px;
+    width: 100%;
+    padding: 36px;
+}
+
+.used-car-check{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 15px;
+}
+.vin-checked{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.vin-checked strong{
+    font-family: "Manrope";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.btn-check{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    padding: 15px 20px;
+    gap: 10px;
+    white-space: nowrap;
+    background: #FFFFFF;
+    border-radius: 4px;
+    color: #132435;
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+
+}
+.btn-check-text-mob{
+    display: none;
+}
+.used-down-payment{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 24px;
+    padding-top: 23px;
+    border-top: 1px dashed #394B5C;
+}
+.used-down-bid span{
+    display: block;
+    font-family: "Manrope";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.used-down-bid p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #9AACBA;
+}
+
+.used-car-cnt .winter-tire-set {
+    margin-top: 34px;
+}
+.used-car-cnt .winter-tire-set ul li{
+    color: #ffffff;
+}
+
+.used-car-cnt .options-benefit__cnt {
+    margin-top: 34px;
+    border-top: 1px solid #394B5C;
+    padding-top: 24px;
+}
+.used-car-cnt .options-benefit__info span {
+    color: #ffffff;
+}
+.used-car-cnt .options-discount-credit p{
+    color: #E2ECF5;
+}
+
+.used-car-cnt .options-benefit__gift {
+    margin-top: 24px;
+    border-top: 1px solid #394B5C;
+    padding-top: 10px;
+}
+.used-car-cnt .price-car p, .used-car-cnt  .price-credit p {
+    color: #C9DAE9;
+}
+.used-car-cnt .price-car strong{
+    color: #FFFFFF;
+}
+
+.select-btn .icon-trade{
+    color: #FFFFFF;
+}
+.options-benefit__btn .btn-white{
+    font-size: 16px;
+    line-height: 22px;
+    padding: 14px 20px;
+}
+
+
+.specificat-descr{
+    margin-top: 56px;
+}
+.specificat-descr__href{
+    margin-bottom: -1px;
+}
+.specificat-descr__href ul{
+    display: flex;
+    align-items: center;
+}
+.specificat-descr__href ul li{
+    padding: 16px 24px;
+    border-radius: 4px 4px 0 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Manrope";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    color: #132435;
+    border: 1px solid transparent;
+    transition: 0.3s;
+}
+.specificat-descr__href ul .specificat-active{
+    border: 1px solid #C9DAE9;
+    border-bottom: unset;
+    background: #ffffff;
+}
+.specificat-min{
+    border: 1px solid #C9DAE9;
+    padding: 24px;
+    border-radius: 4px;
+}
+.specificat-min__flex{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 40px;
+}
+.specificat-min__box{
+    max-width: 430px;
+    width: 100%;
+}
+
+.specificat-min__block{
+    width: 100%;
+}
+.specificat-min__block + .specificat-min__block{
+    margin-top: 26px;
+}
+.specificat-min__click{
+    position: relative;
+    padding-left: 24px;
+    transition: 0.3s;
+}
+.specificat-min__click:before{
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 9px;
+    height: 9px;
+    border-top: 2px solid rgba(51, 182, 255, 1);
+    border-right: 2px solid rgba(51, 182, 255, 1);
+    transform: rotate(135deg);
+    transition: 0.3s;
+    z-index: 11;
+}
+.specificat-min__click span{
+    font-family: "Manrope";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    color: #132435;
+    border-bottom: 1px dashed #132435;
+}
+
+.specificat-min__info{
+    padding-left: 20px;
+    margin-top: 12px;
+}
+.specificat-min__info ul{
+    list-style-type: disc;
+}
+.specificat-min__info ul li{
+    font-family: "Manrope";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #394B5C;
+}
+
+.specificat-engine{
+    padding-left: 23px;
+    margin-top: 12px;
+}
+.specificat-engine ul li{
+    display: flex;
+    align-items: end;
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #132435;
+    margin-bottom: 8px;
+    white-space: nowrap;
+}
+
+
+.car-loan-terms{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 30px;
+}
+.loan-terms__info{
+    max-width: 644px;
+    width: 100%;
+}
+.loan-terms__info h3{
+    font-size: 36px;
+    line-height: 44px;
+    color: #132435;
+}
+.loan-terms__info .specificat-engine{
+    margin-top: 64px;
+    padding-left: 0;
+}
+.loan-terms__info .specificat-engine ul li {
+    margin-bottom: 16px;
+}
+.loan-terms__fon{
+    max-width: 523px;
+    width: 100%;
+    padding: 56px 66px;
+    background: #132435;
+    border-radius: 4px;
+}
+
+.loan-terms__fon .found-cheaper {
+    margin-top: 0;
+    border-top: unset;
+    padding-top: 0;
+}
+.loan-terms__fon .cars-dealership__form {
+    margin-top: 26px;
+}
+.loan-terms__fon .cars-dealership__inp {
+    max-width: 100%;
+    margin-bottom: 16px;
+}
+.loan-terms__fon .btn-orange {
+    max-width: 100%;
+}
+.loan-terms__fon .found-cheaper h4 span {
+    color: #FF9900;
+}
+.loan-terms__fon .cars-dealership__inp input {
+    height: 50px;
+}
+.loan-terms__fon .btn-orange {
+    padding: 15px 25px;
+}
+
+#modal-autotek .modal-content{
+    height: auto;
+    padding: 20px;
+}
+.modal-autotek__cnt{
+    box-shadow: 0px 4px 20px 0px #13243540;
+    background: #ffffff;
+    max-width: 1176px;
+    width: 100%;
+    padding: 56px;
+    position: relative;
+}
+
+.report-purchased-fl{
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+.report-purchased-fl a{
+    display: flex;
+}
+.report-purchased-title{
+    border-left: 1px solid #E2ECF5;
+    padding-left: 36px;
+}
+.report-purchased-title span{
+    display: block;
+    font-family: "Manrope";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    color: #6989A8;
+}
+.report-purch-tiggo{
+    margin-top: 54px;
+    display: flex;
+    justify-content: space-between;
+    gap: 36px;
+}
+
+.report-purch__cnt{
+    max-width: 411px;
+    width: 100%;
+    border-right: 1px solid #C9DAE9;
+    padding-right: 36px;
+}
+.report-purch__cnt h3{
+    color: #2983D7;
+}
+.report-purch__cnt>p{
+    font-family: "Manrope";
+    font-size: 18px;
+    line-height: 26px;
+    color: #394B5C;
+}
+.report-purch__cnt .specificat-engine{
+    margin-top: 36px;
+    padding-left: 0;
+}
+
+.specificat-engine strong, .security-reasons-name strong{
+    font-family: "Manrope";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    color: #132435;
+    display: block;
+    margin-bottom: 16px;
+}
+.security-reasons-name{
+    margin-top: 56px;
+}
+.security-reasons-name strong{
+    margin: 0;
+}
+
+.report-purch-scr{
+    padding-right: 24px;
+    overflow-y: scroll;
+}
+.report-purch-scr::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    background: rgba(232, 239, 246, 1);
+    border-radius: 2px;
+
+}
+.report-purch-scr::-webkit-scrollbar-thumb {
+    width: 6px;
+    height: 6px;
+    background: rgba(179, 196, 208, 1);
+    border-radius: 2px;
+}
+.report-result-check{
+    width: 100%;
+    height: 427px;
+}
+.report-result-check h4{
+    font-family: "Manrope";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    color: #132435;
+}
+.report-result-check ul{
+    padding-top: 4px;
+}
+.report-result-check ul li{
+    position: relative;
+    padding-left: 28px;
+    margin-top: 12px;
+}
+.report-result-check ul li:before{
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 0;
+    background: #82AC11;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+}
+.report-result-check ul li span{
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+    color: #132435;
+}
+.report-result-check ul li p{
+    font-family: "Manrope";
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 6px;
+}
+
+
+@media (max-width: 1320px){
+    .used-car-block {
+        max-width: 650px;
+    }
+    .used-car-sec {
+        z-index: 111;
+    }
+}
+@media (max-width: 1199px){
+    .used-car-block {
+        max-width: 507px;
+    }
+    .used-car-flex {
+        gap: 22px;
+    }
+    .used-car-block h4 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .used-car-cnt .winter-tire-set{
+        display: none;
+    }
+    .used-down-payment {
+        margin-top: 16px;
+        padding-top: 16px;
+    }
+    .specificat-min__flex {
+        gap: 24px;
+        flex-wrap: wrap;
+    }
+    .specificat-engine ul li,  .specificat-engine ul li p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .specificat-min__box:last-child {
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        justify-content: space-between;
+    }
+
+    .specificat-min__box:last-child .specificat-min__block {
+        width: 47%;
+    }
+    .loan-terms__fon {
+        max-width: 351px;
+        padding: 36px;
+    }
+    .loan-terms__info h3 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .loan-terms__fon .found-cheaper h3 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .modal-autotek__cnt {
+        max-width: 944px;
+        padding: 34px;
+    }
+    .report-purchased-title span {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .report-purch__cnt h3 {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24px;
+    }
+    .report-purch__cnt>p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .report-result-check ul li span {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .report-result-check ul li:before{
+        width: 8px;
+        height: 8px;
+    }
+    .loan-terms__info .specificat-engine {
+        margin-top: 36px;
+    }
+    .loan-terms__info {
+        max-width: 455px;
+    }
+    .report-result-check ul li {
+        padding-left: 16px;
+        margin-top: 8px;
+    }
+    .report-purch-tiggo {
+        margin-top: 36px;
+        gap: 24px;
+    }
+    .report-purch-scr {
+        padding-right: 16px;
+        max-width: 480px;
+        width: 100%;
+    }
+
+
+}
+@media (max-width: 1020px){
+    .bread-caps{
+        display: none;
+    }
+    .used-car-flex {
+        gap: 24px;
+        flex-direction: column;
+    }
+    .used-car-sec {
+        margin: 24px 0 0;
+    }
+    .used-car-block {
+        max-width: 690px;
+    }
+    .used-car-cnt {
+        max-width: 750px;
+    }
+    .used-car-cnt .options-benefit__gift {
+        margin-top: 0;
+        border-top: unset;
+        padding-top: 0;
+    }
+
+    .specificat-descr__href {
+        overflow-x: scroll;
+        margin-bottom: -2px;
+    }
+    .specificat-descr__href::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+    }
+    .specificat-descr__href::-webkit-scrollbar-thumb {
+        width: 0;
+        height: 0;
+    }
+    .specificat-descr__href ul {
+        width: max-content;
+    }
+
+    .specificat-min__box {
+        max-width: 330px;
+    }
+
+    .specificat-min__flex {
+        gap: 16px;
+    }
+    .specificat-min__click:before {
+        top: 4px;
+        width: 6px;
+        height: 6px;
+    }
+    .specificat-min__click {
+        padding-left: 20px;
+    }
+    .specificat-min {
+        padding: 24px 14px;
+    }
+    .specificat-min__click span {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .loan-terms__fon {
+        max-width: 312px;
+        padding: 26px;
+    }
+    .loan-terms__fon .found-cheaper h3 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .loan-terms__info h3 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .modal-autotek__cnt {
+        max-width: 708px;
+    }
+    .report-purchased-fl a {
+        max-width: 186px;
+        width: 100%;
+    }
+    .report-purchased-fl {
+        gap: 24px;
+    }
+    .report-purchased-title {
+        padding-left: 23px;
+    }
+
+    .report-purchased-title h3 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .report-purchased-title span {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .report-purch-tiggo {
+        flex-direction: column;
+    }
+
+    .report-purch__cnt {
+        max-width: 100%;
+        border-right: unset;
+        padding-right: 0;
+    }
+    .report-purch__cnt .specificat-engine {
+        margin-top: 24px;
+    }
+    .specificat-engine strong, .security-reasons-name strong {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 12px;
+    }
+    .security-reasons-name {
+        margin-top: 20px;
+    }
+    .report-purch-scr {
+        max-width: 100%;
+    }
+    .report-result-check {
+        height: 327px;
+    }
+
+
+}
+
+@media (max-width: 760px){
+    .used-car-rel {
+        margin-top: 14px;
+    }
+    .specificat-min__box {
+        max-width: 100%;
+    }
+    .specificat-min-js .line-dash {
+        display: block;
+    }
+    .report-purch__cnt .line-dash {
+        display: block;
+    }
+    .car-loan-terms {
+        width: 100%;
+        gap: 24px;
+        flex-direction: column;
+        align-items: start;
+    }
+    .specificat-descr__href ul li {
+        padding: 12px 20px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .loan-terms__info .specificat-engine {
+        margin-top: 12px;
+    }
+    .loan-terms__info h3 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .loan-terms__fon {
+        max-width: 100%;
+    }
+    .report-purchased-title {
+        padding-left: 0;
+        border: unset;
+    }
+    .report-purchased-fl {
+        gap: 15px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .report-purch-tiggo {
+        margin-top: 20px;
+        gap: 16px;
+    }
+    .report-purchased-fl a {
+        max-width: 113px;
+    }
+
+
+
+}
+@media (max-width: 570px){
+    .used-car-cnt {
+        padding: 16px;
+    }
+    .used-car-block h4 {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .used-down-bid span {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .used-down-bid span {
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 18px;
+    }
+    .used-down-bid p {
+        font-size: 11px;
+        line-height: 15px;
+    }
+    .used-car-cnt .options-benefit__cnt {
+        margin-top: 16px;
+        padding-top: 16px;
+    }
+    .btn-check {
+        padding: 5px 6px;
+        gap: 6px;
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .btn-check-text-dec{
+        display: none;
+    }
+    .btn-check-text-mob{
+        display: block;
+    }
+    .specificat-min {
+        padding: 24px 0;
+        border-left: unset;
+        border-right: unset;
+    }
+    .loan-terms__fon {
+        padding: 20px;
+    }
+    #modal-autotek .modal-content {
+        padding: 20px 0;
+    }
+    .modal-autotek__cnt {
+        padding: 18px;
+    }
+    .report-purchased-title h3 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .report-purchased-title span {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .report-purch__cnt h3 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .specificat-engine strong, .security-reasons-name strong {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .stepped-robotic {
+        padding: 5px 10px;
+        width: 165px;
+        bottom: -24px;
+        left: auto;
+        right: 28px;
+    }
+    .stepped-robotic:before {
+        width: 11px;
+        height: 11px;
+        bottom: 25px;
+        left: auto;
+        right: -5px;
+    }
+    .vin-checked strong {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .used-car-block h1 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+}

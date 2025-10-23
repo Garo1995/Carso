@@ -1,0 +1,587 @@
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 99999999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(11px);
+    overflow: auto;
+    -webkit-transform: scaleY(0.01) scaleX(0);
+    -ms-transform: scaleY(0.01) scaleX(0);
+    transform: scaleY(0.01) scaleX(0);
+    -webkit-animation: unfoldIn 0.4s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+    animation: unfoldIn 0.4s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+
+    background: rgba(19, 36, 53, 0.4);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+.modal.out {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-animation: unfoldOut 0.4s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+    animation: unfoldOut 0.4s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+}
+
+
+@-webkit-keyframes unfoldIn {
+    0% {
+        -webkit-transform: scaleY(0.005) scaleX(0);
+        transform: scaleY(0.005) scaleX(0);
+    }
+    50% {
+        -webkit-transform: scaleY(0.005) scaleX(1);
+        transform: scaleY(0.005) scaleX(1);
+    }
+    100% {
+        -webkit-transform: scaleY(1) scaleX(1);
+        transform: scaleY(1) scaleX(1);
+    }
+}
+@keyframes unfoldIn {
+    0% {
+        -webkit-transform: scaleY(0.005) scaleX(0);
+        transform: scaleY(0.005) scaleX(0);
+    }
+    50% {
+        -webkit-transform: scaleY(0.005) scaleX(1);
+        transform: scaleY(0.005) scaleX(1);
+    }
+    100% {
+        -webkit-transform: scaleY(1) scaleX(1);
+        transform: scaleY(1) scaleX(1);
+    }
+}
+@-webkit-keyframes unfoldOut {
+    0% {
+        -webkit-transform: scaleY(1) scaleX(1);
+        transform: scaleY(1) scaleX(1);
+    }
+    50% {
+        -webkit-transform: scaleY(0.005) scaleX(1);
+        transform: scaleY(0.005) scaleX(1);
+    }
+    100% {
+        -webkit-transform: scaleY(0.005) scaleX(0);
+        transform: scaleY(0.005) scaleX(0);
+    }
+}
+@keyframes unfoldOut {
+    0% {
+        -webkit-transform: scaleY(1) scaleX(1);
+        transform: scaleY(1) scaleX(1);
+    }
+    50% {
+        -webkit-transform: scaleY(0.005) scaleX(1);
+        transform: scaleY(0.005) scaleX(1);
+    }
+    100% {
+        -webkit-transform: scaleY(0.005) scaleX(0);
+        transform: scaleY(0.005) scaleX(0);
+    }
+}
+.modal-content {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-animation: zoomIn 1s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+    animation: zoomIn 1s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+    padding: 0 16px;
+}
+@-webkit-keyframes zoomIn {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+@keyframes zoomIn {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+.close{
+    position: absolute;
+    top: 16px;
+    right: 12px;
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+    transform: rotate(-45deg);
+    z-index: 99;
+    transition: 0.3s;
+}
+
+.close:before,
+.close:after{
+    content: "";
+    position: absolute;
+    background-color: rgba(179, 196, 208, 1);
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: auto;
+    transition: 0.3s;
+
+}
+.close:before{
+    width: 100%;
+    height: 2px;
+}
+.close:after{
+    width: 2px;
+    height: 100%;
+}
+
+.modal-applicat{
+    max-width: 837px;
+    width: 100%;
+    background: rgba(19, 36, 53, 1);
+    box-shadow: 0px 4px 40px 0px rgba(19, 36, 53, 0.65);
+    display: flex;
+    position: relative;
+    border-radius: 4px;
+}
+.submit-applic__photo{
+    max-width: 294px;
+    width: 100%;
+    display: flex;
+}
+.submit-applic__photo img{
+    border-radius: 4px 0 0 4px;
+    width: 100%;
+}
+.submit-appli__block{
+    max-width: 543px;
+    width: 100%;
+    padding: 44px 50px 50px;
+}
+
+.submit-appli__block h2{
+    color: #FFFFFF;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 44px;
+}
+.submit-appli__block>p{
+    font-family: "Manrope";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: rgba(154, 172, 186, 1);
+}
+.submit-appli__block form{
+    width: 100%;
+}
+.submit-appli__form{
+    margin-top: 66px;
+}
+.submit-appli__flex {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.submit-appli__flex .btn-orange {
+    padding: 15px 12px;
+    max-width: 183px;
+}
+.submit-appli__flex .cars-dealership__inp {
+    max-width: 244px;
+    margin-bottom: 0;
+}
+.submit-appli__flex .cars-dealership__inp input {
+    padding: 11px 20px;
+    height: 50px;
+}
+.submit-appli__form p{
+    font-family: "Manrope";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: rgba(91, 101, 119, 1);
+    margin-top: 12px;
+}
+.submit-appli__form p a{
+    color: rgba(91, 101, 119, 1);
+    text-decoration: underline;
+    display: inline;
+}
+.modal-call-now{
+    margin-top: 44px;
+}
+.modal-call-now h4{
+    font-family: "Manrope";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: rgba(154, 172, 186, 1);
+}
+.modal__phone{
+    font-family: "Manrope";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+.modal__phone .icon-call {
+    font-size: 18px;
+}
+
+
+.house-liquidation{
+    background-image: url("../img/modal-fon.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 837px;
+    padding: 54px 60px 60px;
+    position: relative;
+    background-position: center;
+    border-radius: 4px;
+}
+.house-liquidation .close, .house-liquidation .close{
+    width: 20px;
+    height: 20px;
+}
+.house-liquidation .close:before, .house-liquidation .close:after{
+    background: rgba(19, 36, 53, 1);
+}
+.house-liquidation .submit-appli__block{
+    padding: 0;
+    max-width: 450px;
+    position: relative;
+    z-index: 1;
+}
+.house-liquidation .submit-appli__form {
+    margin-top: 36px;
+}
+.house-liquidation .modal-call-now {
+    margin-top: 53px;
+}
+.house-liquidation .btn-black {
+    padding: 15px 19px;
+}
+.house-liquid__photo{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: -70px;
+}
+.house-liquidation .submit-appli__block>p {
+    color: #ffffff;
+}
+.house-liquidation .submit-appli__form p {
+    color: #fff;
+}
+.house-liquidation .submit-appli__form p a{
+    color: #fff;
+}
+.house-liquidation .modal-call-now h4{
+    color: #fff;
+}
+.house-liquidation .modal__phone .icon-call {
+    color: rgba(19, 36, 53, 1);
+}
+
+
+.rules-proce-pers{
+    max-width: 1019px;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.rules-proce-pers__block{
+    background-image: url("../img/rules-proce-fon.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 668px;
+    width: 100%;
+    padding: 56px 60px;
+    border-radius: 4px 0 0 4px;
+    position: relative;
+}
+.rules-proce-pers__block h1{
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+.rules-proce-pers__photo{
+    width: 742px;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 25px;
+}
+
+.rules-proce-pers__info{
+    max-width: 351px;
+    width: 100%;
+    padding: 58px 50px 50px;
+    background: rgba(19, 36, 53, 1);
+    border-radius: 0 4px 4px 0;
+}
+.rules-proce-pers__info h2{
+    color: #FFFFFF;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 44px;
+    text-align: center;
+}
+.rules-proce-pers__info>p{
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.rules-proce-pers__info .cars-dealership__inp {
+    margin-bottom: 16px;
+    margin-top: 24px;
+}
+.rules-proce-pers__info .cars-dealership__inp input {
+    height: 50px;
+}
+.rules-proce-pers__info .btn-orange {
+    padding: 15px 20px;
+}
+.rules-proce-pers__info .modal-call-now {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rules-proce__politic{
+    margin-top: 17px;
+    text-align: center;
+}
+.rules-proce__politic p{
+    font-family: "Manrope";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+    color: rgba(91, 101, 119, 1);
+}
+.rules-proce__politic a{
+    color: rgba(91, 101, 119, 1);
+    text-decoration: underline;
+    display: inline;
+    text-align: center;
+
+}
+
+.rules-proce-pers .close {
+    top: 24px;
+    right: 24px;
+    width: 20px;
+    height: 20px;
+}
+.rules-proce-pers .close:before, .rules-proce-pers .close:after{
+    background: rgba(69, 79, 99, 1);
+}
+@media (max-width: 1199px){
+    .rules-proce-pers__photo {
+        width: 100%;
+        bottom: 0;
+        right: 0;
+    }
+    .rules-proce-pers__block {
+        max-width: 397px;
+        padding: 30px 20px;
+    }
+    .rules-proce-pers__block h1 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+}
+@media (max-width: 1020px){
+    .submit-applic__photo{
+        display: none;
+    }
+    .modal-applicat{
+        max-width: 543px;
+    }
+    .rules-proce-pers {
+        max-width: 748px;
+    }
+}
+@media (max-width: 760px){
+    #modalrules-proce .modal-content {
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+    .rules-proce-pers{
+        padding: 139px 20px 60px;
+        background-image: url(../img/rules-proce-fon.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rules-proce-pers__block {
+        max-width: 397px;
+        padding: 0;
+        position: absolute;
+        background-image: unset;
+        top: 51px;
+    }
+    .rules-proce-pers__block h1 {
+        font-size: 30px;
+        line-height: 36px;
+        max-width: 240px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .rules-proce-pers__info h2 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .rules-proce-pers__info {
+        max-width: 290px;
+        padding: 26px 30px 30px;
+    }
+    .rules-proce-pers__info>p {
+        margin-top: 8px;
+    }
+    .rules-proce-pers .modal-call-now h4 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .rules-proce-pers .modal__phone {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 24px;
+        margin-top: 5px;
+    }
+    .house-liquidation {
+        max-width: 475px;
+        padding: 36px 20px 38px;
+    }
+    .house-liquid__photo {
+        position: relative;
+        bottom: 0;
+        right: 0;
+        max-width: 460px;
+        width: 100%;
+    }
+    #house-liquid .modal-content{
+        height: auto;
+    }
+    .house-liquidation  h2 {
+        text-align: center;
+    }
+    .house-liquidation .submit-appli__block>p {
+        font-size: 16px;
+        max-width: 200px;
+        text-align: center;
+        margin: 6px auto 0;
+    }
+    .house-liquidation .modal-call-now {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .submit-appli__flex {
+        flex-direction: column;
+    }
+    .house-liquidation .btn-black {
+        max-width: 244px;
+        width: 100%;
+    }
+    .rules-proce-pers__photo {
+        bottom: auto;
+        right: 0;
+        top: 500px;
+    }
+    .house-liquidation .submit-appli__form p {
+        text-align: center;
+    }
+}
+@media (max-width: 570px){
+    .submit-appli__block h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .submit-appli__block>p {
+        font-size: 14px;
+        line-height: 20px;
+        max-width: 244px;
+        width: 100%;
+    }
+    .submit-appli__form {
+        margin-top: 34px;
+    }
+    .submit-appli__block {
+        padding: 24px 20px 20px;
+    }
+    #modal-application .modal-content{
+        padding: 0;
+    }
+    .modal-applicat{
+        height: 100vh;
+    }
+}
+@media (max-width: 480px){
+    .submit-appli__flex {
+        flex-direction: column;
+    }
+    .submit-appli__flex .btn-orange {
+        max-width: 280px;
+    }
+    .submit-appli__flex .cars-dealership__inp {
+        max-width: 280px;
+    }
+    .modal-call-now h4 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .modal__phone {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .modal-call-now h4 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .house-liquid__photo {
+        bottom: -15px;
+        right: 0;
+        max-width: 460px;
+        width: 100%;
+    }
+}

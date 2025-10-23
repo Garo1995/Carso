@@ -1,0 +1,1063 @@
+.car-loan-sec{
+    margin-top: 45px;
+}
+.car-loan-sec__flex{
+    display: flex;
+}
+.car-loan-sec__pic{
+    max-width: 969px;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 4px 0 0 4px;
+}
+.car-loan-tit__fon{
+    background: #132435;
+    padding: 16px 46px 16px 56px;
+    margin-top: 36px;
+    margin-left: -29px;
+    max-width: max-content;
+    width: 100%;
+
+}
+.car-loan-sec__pic h1 {
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 60px;
+}
+.car-loan-tit__data{
+    padding: 55px 65px;
+
+}
+.car-loan-tit__data strong{
+    font-size: 156px;
+    font-weight: 800;
+    line-height: 156px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.car-loan-tit__data h3{
+    font-family: "Manrope";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: left;
+    color: #C9DAE9;
+}
+
+
+.car-loan__form{
+    background-image: url("../img/fon.png");
+    background-size: cover;
+    max-width: 446px;
+    width: 100%;
+    padding: 36px;
+}
+.car-loan__form h3{
+    margin-bottom: 24px;
+}
+.car-loan__form h3 span{
+    color: #33B6FF;
+}
+.car-loan__inp{
+    margin-top: 12px;
+    width: 100%;
+}
+.car-loan__inp span{
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+    color: #394B5C;
+}
+.car-loan__inp label{
+    display: flex;
+    margin-top: 6px;
+    width: 100%;
+}
+.car-loan__inp input{
+    background: #FFFFFF;
+    border: 2px solid #C9DAE9;
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    color: #394B5C;
+}
+.car-loan__inp input::placeholder{
+    color: #8599AD;
+}
+.car-loan__form .btn-orange{
+    margin-top: 36px;
+    max-width: 100%;
+    height: 50px;
+}
+
+.car-loan__form p{
+    margin-top: 12px;
+    font-family: "Manrope";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: #5B6577;
+}
+.car-loan__form p a{
+    color: #5B6577;
+    text-decoration: underline;
+}
+
+.car-loan-payment{
+    margin-top: 46px;
+}
+.car-loan-payment ul{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.car-loan-payment ul li{
+    background: #132435;
+    border-radius: 4px;
+    max-width: 335px;
+    width: 100%;
+    padding: 24px;
+}
+.car-loan-payment ul strong{
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.car-loan-payment ul p{
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #C9DAE9;
+    margin-top: 3px;
+}
+
+
+.credit-calculator__flex{
+    margin-top: 50px;
+    display: flex;
+}
+.credit-calculator__block{
+    padding: 6px 56px 56px;
+    max-width: 943px;
+    width: 100%;
+    border: 1px solid #C9DAE9;
+    background: #EEF5FB;
+    border-radius: 4px 0 0 4px;
+    border-right: unset;
+}
+.credit-calculator__sel{
+    margin-top: 26px;
+    display: flex;
+    gap: 24px;
+}
+
+.credit-calculator__fon{
+    border-radius: 0 4px 4px 0;
+    max-width: 477px;
+    width: 100%;
+    padding: 56px;
+    background: #0C253A;
+    position: relative;
+}
+.not-chosen-fixed:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 111;
+    background: #0C253A;
+    opacity: 0.70;
+}
+.credit-calculator__fon .changan-plus__title{
+    margin-bottom: 33px;
+}
+.credit-calculator__form{
+    margin-top: 40px;
+}
+
+.credit-calculator__form .cars-dealership__inp {
+    max-width: 100%;
+    margin-bottom: 16px;
+}
+.credit-calculator__form .cars-dealership__inp input{
+    height: 50px;
+}
+.credit-calculator__form .btn-orange{
+    height: 50px;
+    max-width: 100%;
+
+}
+
+
+.credit-calculator__price{
+    margin-top: 39px;
+    border-top: 1px solid #C9DAE9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+.credit-calculator__price .price-car strong{
+    color: #FFFFFF;
+}
+
+
+.credit-mortgage{
+    margin-top: 24px;
+}
+.calculator-mortgage__name{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.calculator-mortgage__name span{
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.calculator-mortgage__mount{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.calculator-mortgage__mount div{
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.credit-mortgage .range{
+    margin-top: 9px;
+}
+
+.range input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    cursor: pointer;
+    outline: none;
+    border-radius: 6px;
+    height: 12px;
+    background: #E8EFF6;
+    margin: 0;
+}
+
+.range input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 20px;
+    width: 20px;
+    border: 5px solid #2983D7;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    transition: .2s ease-in-out;
+}
+
+.range input[type="range"]::-moz-range-thumb {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 5px solid #2983D7;
+    background-color: #FFFFFF;
+
+    transition: .2s ease-in-out;
+}
+
+.calculator-mortgage__count{
+    margin-top: 9px;
+}
+.calculator-mortgage__count ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.calculator-mortgage__count ul li{
+    font-family: "Manrope";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: #C9DAE9;
+}
+
+
+.special-programs-name{
+    margin-top: 50px;
+}
+.special-programs-name ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.special-programs-name ul li{
+    background: #E2ECF54D;
+    max-width: 203px;
+    width: 100%;
+    padding: 14px 16px 16px;
+    border-radius: 4px;
+
+}
+.special-programs-name ul li strong{
+    font-family: "Manrope";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    color: #132435;
+}
+.special-programs-name ul li strong span{
+    color: #2983D7;
+}
+.special-programs-name ul p{
+    color: #6989A8;
+    font-family: "Manrope";
+}
+
+
+.government-programs{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.government-programs__box{
+    display: flex;
+    align-items: center;
+    width: calc(50% - 20px);
+    gap: 40px;
+}
+.government-programs__photo{
+    display: flex;
+    max-width: 325px;
+    width: 100%;
+}
+.government-programs__info{
+    max-width: 325px;
+    width: 100%;
+}
+.government-programs__info strong{
+    font-family: "Manrope";
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    color: #132435;
+}
+.government-programs__info p{
+    color: #394B5C;
+    font-family: "Manrope";
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.government-programs__info a{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: left;
+    color: #2983D7;
+    border-bottom: 1px dashed #2983D766;
+    transition: 0.3s;
+}
+.government-programs__info a:hover{
+    border-bottom: 1px dashed transparent;
+}
+
+.terms-contract__href{
+    margin-bottom: -2px;
+}
+.terms-contract__href ul{
+    display: flex;
+}
+.terms-contract__href ul li{
+    white-space: nowrap;
+    padding: 16px 24px;
+    color: #132435;
+    font-family: "Manrope";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    transition: 0.3s;
+    border: 1px solid transparent;
+    border-bottom: unset;
+    cursor: pointer;
+    border-radius: 4px 4px 0 0;
+}
+.terms-contract__href ul .terms-contract-active{
+    border: 1px solid #C9DAE9;
+    border-bottom: unset;
+    background: #F7FAFC;
+
+}
+.terms-contract__flex{
+    padding: 46px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #C9DAE9;
+    background: #F7FAFC;
+    border-radius: 4px;
+    gap: 80px;
+}
+.terms-contract-block{
+    max-width: 800px;
+    width: 100%;
+}
+.terms-contract__info h3{
+    font-size: 36px;
+    line-height: 44px;
+
+}
+.terms-citizenship{
+    margin-top: 24px;
+}
+.terms-citizenship ul li + li{
+    margin-top: 16px;
+}
+.terms-citizenship ul li{
+    position: relative;
+    padding-left: 20px;
+}
+.terms-citizenship ul li p, .terms-citizenship ul li span{
+    font-family: "Manrope";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #5B6577;
+}
+.terms-citizenship ul li span{
+    color: #132435;
+    display: block;
+    font-weight: 700;
+}
+.terms-citizenship ul li:before{
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 0;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #2983D7;
+}
+
+.download-sample-tract{
+    margin-top: 60px;
+}
+.download-sample-tract ul{
+    margin-top: 24px;
+}
+.download-sample-tract ul li + li{
+    margin-top: 16px;
+}
+.download-sample-tract ul li a{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.download-sample-tract ul li a span{
+    border-bottom: 1px dashed #132435;
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #132435;
+}
+
+.terms-contract__info p{
+    font-family: "Manrope";
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 16px;
+}
+.terms-cont-text{
+    margin-top: 24px;
+    max-width: 645px;
+    width: 100%;
+}
+
+
+.terms-contract__form{
+    max-width: 522px;
+    width: 100%;
+    padding: 36px;
+    border-radius: 0 4px 4px 0;
+    background: #132435;
+}
+.terms-contract__form h3{
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.terms-contract__form h3 span{
+    color: #33B6FF;
+}
+.terms-contract__inp{
+    margin-top: 12px;
+    width: 100%;
+}
+.terms-contract__inp small{
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+    color: #5B6577;
+    display: block;
+    margin-bottom: 6px;
+}
+.terms-contract__inp label{
+    display: flex;
+    width: 100%;
+}
+
+.terms-contract__inp input{
+    background: #FFFFFF;
+    width: 100%;
+    height: 50px;
+    padding: 12px 20px;
+    border-radius: 4px;
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    color: #132435;
+}
+.terms-contract__inp input::placeholder{
+    color: #8599AD;
+}
+
+.terms-contract__form .btn-orange{
+    margin-top: 36px;
+    max-width: 100%;
+    padding: 15px 20px;
+}
+
+.terms-contract__form .chan-prices__request{
+    margin-top: 100px;
+}
+
+
+
+
+.see-all-sedans{
+    margin: 36px auto 0;
+    max-width: 254px;
+    width: 100%;
+    border: 2px solid #C9DAE9;
+    padding: 13px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    color: #394B5C;
+}
+.see-all-sedans .icons{
+    color: #394B5C;
+}
+
+.credit-program-loan .car-loan-tit__fon h1 span{
+    color: #33B6FF;
+}
+
+.car-loan-optimazed{
+    display: flex;
+    align-items: center;
+    max-width: 288px;
+    width: 100%;
+    padding: 12px 26px 12px 26px;
+    border-radius: 4px;
+    background: #ffffff;
+    margin-top: 36px;
+    margin-left: 66px;
+}
+@media (max-width: 1599px){
+    .car-loan-tit__fon {
+        margin-left: -14px;
+    }
+}
+
+@media (max-width: 1499px){
+    .special-programs-name ul li {
+        max-width: 225px;
+    }
+    .government-programs__photo {
+        max-width: 270px;
+    }
+    .government-programs__box {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 1299px){
+    .car-loan-sec__pic h1 {
+        font-size: 48px;
+        line-height: 54px;
+    }
+    .car-loan-tit__fon {
+        padding: 16px 34px 16px 34px;
+        margin-top: 36px;
+    }
+    .car-loan-tit__data {
+        padding: 26px 26px;
+    }
+    .car-loan-tit__data strong {
+        font-size: 96px;
+        line-height: 96px;
+    }
+    .car-loan__form {
+        max-width: 400px;
+        padding: 26px;
+    }
+    .car-loan-tit__data h3 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .car-loan-payment {
+        margin-top: 26px;
+    }
+    .car-loan-payment ul strong {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .car-loan-payment ul p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .credit-calculator__block {
+        padding: 6px 32px 32px;
+    }
+    .credit-calculator__sel {
+        margin-top: 4px;
+        gap: 12px;
+        flex-direction: column;
+    }
+    .credit-calculator__sel .sale-used__select {
+        max-width: 100%;
+    }
+    .credit-calculator__fon {
+        padding: 32px;
+    }
+    .special-programs-name ul {
+        gap: 16px;
+    }
+    .special-programs-name ul li {
+        max-width: 219px;
+    }
+    .government-programs {
+        flex-direction: column;
+    }
+    .government-programs__box {
+        width: 100%;
+    }
+    .government-programs__photo {
+        max-width: 400px;
+    }
+    .government-programs__photo img{
+        width: 100%;
+    }
+    .government-programs__info {
+        max-width: 625px;
+    }
+    .terms-contract__flex {
+        gap: 40px;
+    }
+    .terms-contract__form {
+        max-width: 457px;
+    }
+
+    .car-loan-sec__pic {
+        background-position: center;
+    }
+    
+}
+
+@media (max-width: 1199px) {
+    .car-loan-sec__pic h1 {
+        font-size: 46px;
+        line-height: 52px;
+    }
+    .car-loan__form {
+        max-width: 335px;
+    }
+    .car-loan__form h3 {
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 30px;
+    }
+    .credit-calculator__fon {
+        max-width: 397px;
+    }
+    .credit-calculator__price strong{
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .special-programs-name ul li {
+        max-width: 224px;
+    }
+    .terms-contract__form {
+        max-width: 358px;
+    }
+    .terms-contract__info h3 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .download-sample-tract {
+        margin-top: 46px;
+    }
+
+
+}
+
+@media (max-width: 1020px){
+    .car-loan-sec__pic h1 {
+        font-size: 36px;
+        line-height: 44px;
+    }
+    .car-loan-tit__data strong {
+        font-size: 76px;
+        line-height: 76px;
+    }
+    .car-loan-tit__data h3 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .car-loan-tit__fon {
+        padding: 16px 26px 16px 38px;
+        margin-top: 25px;
+        max-width: max-content;
+    }
+
+    .car-loan-sec__flex {
+        flex-direction: column;
+        gap: 36px;
+    }
+    .car-loan-sec__pic{
+        border-radius: 4px;
+    }
+    .car-loan-tit__data {
+        margin-top: 53px;
+    }
+
+    .car-loan__form {
+        max-width: 100%;
+    }
+    .loan-wrap-mob{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0 24px;
+    }
+    .car-loan__inp{
+        width: 48%;
+    }
+    .car-loan-payment ul {
+        gap: 12px;
+    }
+    .car-loan-payment ul li {
+        padding: 16px 5px 16px 12px;
+    }
+    .car-loan-payment ul p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .car-loan__form .btn-orange {
+        margin-top: 26px;
+    }
+    .credit-calculator__block {
+        padding: 6px 26px 26px;
+    }
+    .credit-calculator__fon {
+        max-width: 315px;
+        padding: 26px;
+    }
+    .calculator-mortgage__count ul li {
+        font-size: 11px;
+    }
+    .calculator-mortgage__name span {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .calculator-mortgage__mount div {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .credit-calculator__fon .changan-plus__title {
+        margin-bottom: 0;
+    }
+    .credit-calculator__sel {
+        margin-top: 40px;
+    }
+    .credit-calculator__form {
+        margin-top: 34px;
+    }
+    .credit-calculator__price {
+        margin-top: 24px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .government-programs {
+        margin-top: 26px;
+        gap: 26px;
+    }
+    .government-programs__photo {
+        max-width: 300px;
+    }
+
+    .terms-contract__href {
+        overflow-x: scroll;
+    }
+    .terms-contract__href::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+        background: unset;
+    }
+    .terms-contract__href::-webkit-scrollbar-thumb {
+        width: 0;
+        height: 0;
+        background: unset;
+    }
+    .terms-contract__form{
+        display: none;
+    }
+    .terms-contract__flex {
+        padding: 24px;
+    }
+    .terms-contract__info h3 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+
+
+}
+
+@media (max-width: 760px){
+    .car-loan-optimazed {
+        max-width: 240px;
+        padding: 8px 10px;
+        margin-top: 20px;
+        margin-left: 24px;
+    }
+    .car-loan-tit__fon {
+        padding: 16px 26px 16px;
+        max-width: 100%;
+        margin-left: 0;
+    }
+    .car-loan-sec__pic h1 {
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .car-loan-tit__data strong {
+        font-size: 46px;
+        line-height: 50px;
+    }
+    .car-loan-tit__data h3 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .car-loan__inp {
+        width: 100%;
+    }
+    .car-loan-payment {
+        overflow-x: scroll;
+    }
+    .car-loan-payment::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+        background: unset;
+    }
+    .car-loan-payment::-webkit-scrollbar-thumb {
+        width: 0;
+        height: 0;
+        background: unset;
+    }
+    .car-loan-payment ul {
+        width: max-content;
+    }
+    .car-loan-payment ul li {
+        padding: 12px;
+        white-space: nowrap;
+    }
+    .credit-calculator__flex {
+        margin-top: 22px;
+        flex-direction: column;
+        gap: 24px;
+    }
+    .credit-calculator__block {
+        padding: 6px 20px 20px;
+        border-radius: 4px;
+    }
+    .credit-calculator__sel {
+        margin-top: 20px;
+    }
+
+    .credit-calculator__fon {
+        border-radius: 4px;
+
+        max-width: 100%;
+    }
+    .credit-calculator__price {
+        flex-direction: row;
+    }
+    .special-programs-name {
+        margin-top: 22px;
+    }
+    .special-programs-name ul {
+        gap: 14px;
+    }
+    .special-programs-name ul li {
+        max-width: 166px;
+        padding: 12px 12px 12px;
+    }
+    .special-programs-name ul li strong {
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .government-programs__box {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 14px;
+    }
+
+    .government-programs__info strong {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .terms-contract__href ul li {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .terms-citizenship ul li p, .terms-citizenship ul li span {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .terms-citizenship ul li + li {
+        margin-top: 12px;
+    }
+    .terms-contract__info h3 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .download-sample-tract ul li a img{
+        width: 24px;
+    }
+    .download-sample-tract ul li a span {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .car-loan-sec {
+        margin-top: 20px;
+    }
+
+}
+
+@media (max-width: 570px){
+    .car-loan-sec__pic h1 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .car-loan__form h3 {
+        font-size: 18px;
+        line-height: 26px;
+        margin-bottom: 12px;
+    }
+    .car-loan__form {
+        padding: 20px;
+    }
+    .car-loan__inp span {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .car-loan__inp input {
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .car-loan__form .btn-orange {
+        margin-top: 26px;
+        padding: 12px 19px;
+    }
+
+    .car-loan-payment ul strong {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .sale-used__select span{
+        font-size: 14px;
+    }
+    .credit-calculator__fon {
+        padding: 17px;
+    }
+    .calculator-mortgage__name span {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .calculator-mortgage__mount div {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .calculator-mob__count ul li:nth-child(even){
+        display: none;
+    }
+
+    .credit-calculator__price strong {
+        font-size: 15px;
+        line-height: 19px;
+    }
+
+    .special-programs-name ul li {
+        max-width: 206px;
+    }
+    .special-programs-name ul li strong {
+        font-size: 18px;
+    }
+    .government-programs__info a {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .government-programs__info p {
+        margin-bottom: 14px;
+    }
+
+
+
+
+
+}

@@ -1,0 +1,418 @@
+.buying-car__sec{
+    margin-top: 46px;
+}
+.buying-car__photo{
+    display: flex;
+    position: relative;
+    width: 100%;
+    border-radius: 4px;
+
+}
+.buying-car__photo{
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 6px -6px 0px 0px #E8EFF6;
+
+}
+.buying-car__photo:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    background: linear-gradient(180deg, rgba(19, 36, 53, 0) 0%, #132435 100%);
+}
+.buying-car__photo h1{
+    position: absolute;
+    bottom: 56px;
+    left: 56px;
+    z-index: 1;
+}
+.buying-car__flex{
+    display: flex;
+    align-items: center;
+    margin-top: 56px;
+    width: 100%;
+    justify-content: space-between;
+    gap: 40px;
+}
+.buying-car__block{
+    max-width: 689px;
+    width: 100%;
+}
+.buying-car__text + .buying-car__text{
+    margin-top: 56px;
+}
+.buying-car__flex .car-loan__form{
+    max-width: 690px;
+    width: 100%;
+}
+.buying-car__form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 36px;
+    margin-bottom: 35px;
+}
+.buying-car__cnt {
+    width: calc(50% - 18px);
+}
+
+.ulfill-simplest__flex{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+.ulfill-simplest__info{
+    max-width: 691px;
+    width: 100%;
+}
+.ulfill-simplest__info strong{
+    display: block;
+    margin-top: 46px;
+    font-family: "Manrope";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    color: #132435;
+}
+
+.ulfill-simplest__cnt{
+    max-width: 589px;
+    width: 100%;
+    padding-left: 142px;
+    border-left: 1px solid #E8EFF6;
+}
+.ulfill-simplest__cnt h3{
+    margin-bottom: 45px;
+}
+.ulfill-simplest__cnt p{
+    margin-top: 20px;
+}
+.ulfill-simplest__btn{
+    display: flex;
+    align-items: center;
+    margin-top: 68px;
+    gap: 36px;
+}
+
+.customer-reviews__wrap{
+    margin-top: 80px;
+    gap: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.customer-reviews__box{
+    width: calc(33.333333% - 27px);
+    border: 1px solid #C9DAE9;
+    background: #ffffff;
+    padding: 36px;
+}
+.customer-reviews__box ul{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 16px;
+}
+.customer-reviews__box ul li .icons{
+    color: #F8A70A;
+    font-size: 20px;
+}
+.customer-reviews__href{
+    font-family: "Manrope";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #132435;
+    border-bottom: 1px dashed #333333;
+    transition: 0.3s;
+}
+.customer-reviews__href:hover{
+    border-bottom: 1px solid transparent;
+}
+.customer-reviews__box p{
+    font-family: "Manrope";
+    color: #5B6577;
+    margin-bottom: 26px;
+    margin-top: 3px;
+}
+.icon-star-rigth{
+    content: url("../img/icons/decoration.svg");
+}
+.buying-car__cnt .car-loan__inp {
+    width: 100%;
+}
+
+
+
+
+
+.pagination-pages{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 56px;
+}
+.to-the-begining, .in-the-end{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    border: 2px solid #C9DAE9;
+    border-radius: 4px;
+    padding: 16px;
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    color: #394B5C;
+}
+.to-the-begining:hover, .in-the-end:hover{
+    background: #E2ECF5;
+}
+
+
+
+.pagination-pages ul{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.pagination-pages ul li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: 0.3s;
+    border: 2px solid #C9DAE9;
+    border-radius: 4px;
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    color: #394B5C;
+    width: 52px;
+    height: 52px;
+    background: #ffffff;
+}
+.pagination-pages ul li a:hover{
+    background: #E2ECF5;
+}
+
+
+
+.arrow-left-pag:after {
+    content: "";
+    position: absolute;
+    right: 16px;
+    border-top: 3px solid #394B5C;
+    border-right: 3px solid #394B5C;
+    width: 9px;
+    height: 9px;
+    transform: rotate(-135deg);
+    transition: 0.3s;
+}
+.arrow-right-pag:after{
+    content: "";
+    position: absolute;
+    right: 20px;
+    border-top: 3px solid #394B5C;
+    border-right: 3px solid #394B5C;
+    width: 9px;
+    height: 9px;
+    transform: rotate(45deg);
+    transition: 0.3s;
+}
+@media (max-width: 1399px){
+    .ulfill-simplest__cnt {
+        padding-left: 60px;
+    }
+    .customer-reviews__wrap {
+        margin-top: 48px;
+        gap: 30px;
+    }
+    .customer-reviews__box {
+        width: calc(33.333333% - 21px);
+    }
+}
+
+@media (max-width: 1299px){
+    .buying-car__text + .buying-car__text {
+        margin-top: 24px;
+    }
+    .ulfill-simplest__cnt {
+        padding-left: 40px;
+        max-width: 510px;
+    }
+    .ulfill-simplest__flex {
+        gap: 30px;
+    }
+    .ulfill-simplest__info strong {
+        margin-top: 24px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .ulfill-simplest__cnt h3 {
+        margin-bottom: 25px;
+    }
+    .ulfill-simplest__btn {
+        margin-top: 40px;
+    }
+
+}
+@media (max-width: 1199px){
+    .buying-car__flex {
+        gap: 36px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .buying-car__block {
+        max-width: 100%;
+        display: flex;
+        align-items: start;
+        gap: 34px;
+    }
+    .buying-car__text{
+        width: 48%;
+    }
+    .buying-car__text + .buying-car__text {
+        margin-top: 0;
+    }
+    .buying-car__flex .car-loan__form {
+        max-width: 100%;
+    }
+    .ulfill-simplest__flex {
+        gap: 56px;
+        flex-direction: column;
+    }
+    .ulfill-simplest__cnt {
+        padding-left: 0;
+        max-width: 100%;
+        border-left: unset;
+        border-top: 1px solid #E8EFF6;
+        padding-top: 56px;
+    }
+    .customer-reviews__wrap {
+        gap: 26px;
+    }
+    .customer-reviews__box {
+        width: calc(50% - 14px);
+    }
+}
+
+@media (max-width: 1020px){
+    .buying-car__sec {
+        margin-top: 15px;
+    }
+    .buying-car__photo {
+        height: 290px;
+    }
+    .buying-car__photo img{
+        object-fit: cover;
+    }
+    .buying-car__photo h1 {
+        bottom: 26px;
+        left: 26px;
+    }
+    .customer-reviews__box {
+        width: calc(50% - 9px);
+        padding: 16px;
+    }
+    .customer-reviews__wrap {
+        gap: 16px;
+        margin-top: 26px;
+    }
+    .ulfill-simplest__cnt {
+        padding-top: 36px;
+    }
+    .ulfill-simplest__flex {
+        gap: 36px;
+    }
+
+}
+@media (max-width: 760px){
+    .buying-car__block {
+        max-width: 100%;
+        gap: 24px;
+        flex-direction: column;
+    }
+    .buying-car__text {
+        width: 100%;
+    }
+    .buying-car__form {
+        gap: 0;
+        flex-direction: column;
+    }
+    .buying-car__cnt {
+        width: 100%;
+    }
+    .customer-reviews__href {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .customer-reviews__box {
+        width: 100%;
+        padding: 16px;
+    }
+    .to-the-begining, .in-the-end {
+        padding: 14px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .pagination-pages ul li a {
+        font-size: 14px;
+        line-height: 16px;
+        width: 48px;
+        height: 48px;
+    }
+    .pagination-pages {
+        gap: 10px;
+        margin-top: 36px;
+    }
+    .pagination-pages ul {
+        gap: 10px;
+    }
+    .arrow-left-pag:after {
+        right: 15px;
+        border-top: 2px solid #394B5C;
+        border-right: 2px solid #394B5C;
+    }
+    .arrow-right-pag:after {
+        right: 19px;
+        border-top: 2px solid #394B5C;
+        border-right: 2px solid #394B5C;
+    }
+}
+@media (max-width: 570px){
+    .buying-car__photo {
+        height: 220px;
+    }
+    .ulfill-simplest__btn {
+        margin-top: 36px;
+        flex-direction: column;
+        gap: 16px;
+    }
+    .buying-car__photo h1 {
+        bottom: 20px;
+        left: 20px;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .pagination-pages {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 280px;
+        width: 100%;
+        margin: 36px auto 0;
+    }
+    .to-the-begining{
+        order: 2;
+    }
+    .in-the-end{
+        order: 3;
+    }
+}

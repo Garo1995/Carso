@@ -1,0 +1,453 @@
+.contact-sec{
+    margin-top: 64px;
+}
+.contact-sec h1{
+    color: #132435;
+}
+.contact-sec__flex{
+    display: flex;
+    margin-top: 66px;
+    justify-content: space-between;
+    gap: 20px;
+}
+.contact-sec__info{
+    max-width: 380px;
+    width: 100%;
+}
+.contact-sec__flex .contact-map{
+    max-width: 934px;
+    height: 595px;
+    background: unset;
+    border-radius: 0;
+    padding: 0;
+}
+
+.contact-sec__block + .contact-sec__block{
+    margin-top: 45px;
+}
+.contact-sec__name{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.contact-sec__name i{
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+}
+.icon-mail{
+    content: url("../img/icons/mail.svg");
+}
+.contact-sec__numb{
+    margin-left: 29px;
+    margin-top: 25px;
+}
+.contact-sec__numb span{
+    display: block;
+    font-family: "Manrope";
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    color: #132435;
+}
+.contact-sec__numb small{
+    display: block;
+    color: #6989A8;
+    font-family: "Manrope";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+
+}
+
+
+
+
+
+
+
+
+
+.people-come-from{
+    display: flex;
+}
+.people-come-info{
+    background-image: url(../img/fon.png);
+    background-size: cover;
+    max-width: 913px;
+    width: 100%;
+    background-repeat: repeat;
+    padding: 96px;
+}
+.people-come-info h3{
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 44px;
+
+}
+.people-come-info h3 span{
+    color: #33B6FF;
+}
+.people-come-info .terms-citizenship {
+    margin-top: 55px;
+    margin-bottom: 50px;
+}
+.people-come-from .terms-contract__form{
+    max-width: 627px;
+    padding: 96px;
+}
+.people-come-from .terms-contract__form>p{
+    font-family: "Manrope";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    margin-top: 8px;
+    color: #C9DAE9;
+}
+
+.people-come-from .terms-contract__inp small {
+    color:#C9DAE9;
+}
+
+.people-come-from .chan-prices__request{
+    margin-top: 12px;
+}
+
+
+
+.promotion-residents__flex{
+    display: flex;
+    align-items: center;
+    gap: 160px;
+    margin: 50px 0;
+}
+.promotion-residents__form{
+    max-width: 447px;
+    width: 100%;
+    padding: 56px;
+    border-radius: 4px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/residents-pic.jpg");
+
+}
+.promotion-residents__form h3{
+    color: #ffffff;
+}
+.promotion-residents__form>p{
+    color: #C9DAE9;
+    margin-top: 6px;
+    font-family: "Manrope";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+.promotion-residents__form .terms-contract__inp small{
+    color: #C9DAE9;
+}
+.promotion-residents__form .btn-orange{
+    padding: 15px 20px;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 36px;
+}
+.promotion-residents__info{
+    max-width: 820px;
+    width: 100%;
+}
+.promotion-residents__info h2{
+    margin-bottom: 36px;
+
+}
+.promotion-residents__info p{
+    margin-top: 22px;
+
+}
+.promotion-residents__info ul{
+    margin: 22px 0;
+    padding-left: 22px;
+}
+.promotion-residents__info ul li{
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #394B5C;
+    margin-top: 5px;
+    position: relative;
+    padding-left: 18px;
+}
+.promotion-residents__info ul li:before{
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: 0;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #2983D7;
+
+}
+.promotion-residents__info span{
+    display: block;
+    margin-top: 56px;
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #394B5C;
+}
+
+
+
+
+
+
+
+
+
+
+.entered-incor-sec{
+    margin-top: 156px;
+}
+.entered-incor-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 970px;
+    width: 100%;
+    margin: 0 auto;
+    gap: 56px;
+}
+.entered-incor-info h3{
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 44px;
+    text-align: center;
+    color: #394B5C;
+}
+.entered-incor-info h4{
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    color: #394B5C;
+}
+.entered-incor-info h4 a{
+    color: #2983D7;
+}
+
+@media (max-width: 1399px){
+    .contact-sec__flex .contact-map {
+        max-width: 804px;
+    }
+
+
+    .people-come-info {
+        padding: 56px;
+    }
+    .people-come-from .terms-contract__form {
+        max-width: 447px;
+        padding: 56px;
+    }
+    .people-come-info h3 {
+        max-width: 600px;
+        width: 100%;
+    }
+}
+@media (max-width: 1199px){
+    .contact-sec__flex .contact-map {
+        max-width: 504px;
+    }
+    .people-come-info {
+        padding: 36px;
+    }
+    .people-come-from .terms-contract__form {
+        max-width: 397px;
+        padding: 36px;
+    }
+    .promotion-residents__form {
+        max-width: 350px;
+        padding: 36px;
+    }
+    .promotion-residents__flex {
+        gap: 80px;
+    }
+    .entered-incor-sec {
+        margin-top: 96px;
+    }
+    .entered-incor-info h3 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .entered-incor-info h4 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .entered-incor-info {
+        max-width: 929px;
+    }
+
+
+
+}
+@media (max-width: 1020px){
+    .contact-sec__flex {
+        margin-top: 26px;
+        gap: 50px;
+        flex-direction: column;
+    }
+    .contact-sec {
+        margin-top: 20px;
+    }
+    .contact-sec__name h3{
+        font-size: 18px;
+        line-height: 23px;
+    }
+    .contact-sec__numb {
+        margin-top: 16px;
+    }
+    .contact-sec__numb span {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .contact-sec__numb small {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .contact-sec__block + .contact-sec__block {
+        margin-top: 26px;
+    }
+    .contact-sec__info {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 651px;
+        gap: 10px 50px;
+    }
+    .contact-sec__flex .contact-map {
+        max-width: 100%;
+        height: 440px;
+    }
+
+    .people-come-from .terms-contract__form {
+        max-width: 100%;
+        display: block;
+    }
+    .people-come-from {
+        flex-direction: column;
+    }
+    .people-come-info .terms-citizenship {
+        margin-top: 26px;
+        margin-bottom: 24px;
+    }
+    .people-come-from .terms-contract__form>p {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 24px;
+    }
+    .people-come-from .terms-contract__inp {
+        width: 47%;
+    }
+    .people-come-info .terms-citizenship ul li p, .people-come-info .terms-citizenship ul li span {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .people-come-info .terms-citizenship ul li + li {
+        margin-top: 8px;
+    }
+    .promotion-residents__flex {
+        gap: 20px;
+    }
+    .promotion-residents__info ul {
+        margin: 16px 0;
+        padding-left: 8px;
+    }
+    .promotion-residents__info h2 {
+        margin-bottom: 22px;
+    }
+    .promotion-residents__info span {
+        margin-top: 24px;
+    }
+    .people-come-info h3 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+
+    .entered-incor-info img{
+        max-width: 393px;
+        width: 100%;
+    }
+    .entered-incor-info h3 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .entered-incor-info h4 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+
+}
+
+@media (max-width: 760px){
+    .contact-sec__info {
+        gap: 0;
+        flex-direction: column;
+    }
+    .promotion-residents__flex {
+        gap: 36px;
+        flex-direction: column-reverse;
+    }
+    .people-come-from .terms-contract__inp {
+        width: 100%;
+    }
+
+
+}
+@media (max-width: 570px){
+    .contact-sec__flex .contact-map {
+        height: 260px;
+    }
+    .people-come-info h3 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .people-come-info {
+        padding: 20px;
+    }
+    .people-come-from .terms-contract__form {
+        padding: 20px;
+    }
+    .people-come-from .terms-contract__inp {
+        width: 100%;
+    }
+
+    .promotion-residents__form {
+        max-width: 350px;
+        padding: 20px;
+    }
+    .entered-incor-sec {
+        margin-top: 56px;
+    }
+    .entered-incor-info img {
+        max-width: 196px;
+        width: 100%;
+    }
+    .entered-incor-info h3 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .entered-incor-info {
+        gap: 40px;
+    }
+    .entered-incor-info h4 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}

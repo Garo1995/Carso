@@ -1,0 +1,294 @@
+.great-offer-sec{
+    margin-top: 20px;
+    overflow: hidden;
+    z-index: 111;
+}
+.great-offer-slider{
+    width: 100%;
+    max-width: 1420px;
+    overflow: unset;
+    transition: 0.4s;
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
+.great-offer-slider .swiper-slide {
+    opacity: 0;
+    transition: 0.3s;
+}
+.great-offer-slider .swiper-slide.swiper-slide-active{
+    opacity: 1;
+}
+.great-offer__photo{
+    display: flex;
+    position: absolute;
+    top: -30px;
+    right: -30px;
+}
+.great-offer-slider .liquidation__form {
+    margin-top: 50px;
+}
+
+.great-offer-flex, .favorable-loan-cnt{
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+}
+.great-offer-item{
+    max-width: 196px;
+    width: 100%;
+    background: #FFFFFF;
+    padding: 10px 18px;
+    border-radius: 4px;
+}
+.great-offer-item h3, .favorable-loan-cnt h3{
+    color: #132435;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+
+}
+.great-offer-item p{
+    margin-top: 12px;
+    color: #6989A8;
+    font-family: "Manrope";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+}
+.favorable-loan-cnt p{
+    font-family: "Manrope";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #C9DAE9;
+}
+
+.great-offer-pagination {
+    margin-top: 2px;
+    position: relative;
+    display: flex;
+}
+
+.liquidation__slider .swiper-slide{
+    opacity: 0;
+}
+
+.favorable-loan-box{
+    border: 2px solid #FFFFFF99;
+    padding: 10px 18px;
+    border-radius: 4px;
+}
+.favorable-loan-cnt h3{
+    color: #ffffff;
+}
+
+
+.favorable-loan-sec .liquidation__form {
+    margin-top: 68px;
+}
+
+.fave-slid-picture{
+    display: flex;
+    position: absolute;
+    top: -30px;
+    right: -30px;
+}
+.fave-slid-picture:after{
+    content: "";
+    position: absolute;
+    top: 60px;
+    right: 60px;
+    z-index: 1;
+    background-image: url("../img/vtb.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 165px;
+    width: 100%;
+    height: 60px;
+}
+.great-offer__photo .great-offer-mobile{
+    display: none;
+}
+
+.fave-slid-picture .fave-offer-mobile{
+    display: none;
+}
+
+@media (max-width: 1430px){
+    .great-offer__photo {
+        right: -102px;
+    }
+    .fave-slid-picture {
+        right: -104px;
+    }
+    .fave-slid-picture:after {
+        top: 60px;
+        right: 130px;
+    }
+}
+
+@media (max-width: 1299px){
+    .great-offer-item p {
+        margin-top: 8px;
+    }
+    .great-offer-flex, .favorable-loan-cnt {
+        margin-top: 15px;
+        gap: 16px;
+    }
+    .great-offer-slider .liquidation__form {
+        margin-top: 26px;
+    }
+    .great-offer-slider .liquidation__info {
+        max-width: 679px;
+    }
+    .great-offer__photo {
+        right: -97px;
+        max-width: 750px;
+        width: 100%;
+    }
+    .fave-slid-picture {
+        right: -97px;
+        max-width: 829px;
+        width: 100%;
+    }
+}
+@media (max-width: 1199px){
+    .great-offer__photo {
+        right: -97px;
+        max-width: 700px;
+        top: -16px;
+    }
+    .fave-slid-picture {
+        right: -97px;
+        max-width: 709px;
+        top: -20px;
+    }
+    .fave-slid-picture:after {
+        top: 40px;
+        right: 121px;
+        max-width: 110px;
+        width: 100%;
+        height: 40px;
+    }
+    .great-offer-item h3, .favorable-loan-cnt h3 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+@media (max-width: 1020px){
+    .fave-slid-picture .fave-offer-decstop{
+        display: none;
+    }
+    .fave-slid-picture .fave-offer-mobile{
+        display: block;
+    }
+    .great-offer__photo .great-offer-mobile{
+        display: block;
+    }
+    .great-offer__photo .great-offer-decstop{
+        display: none;
+    }
+    .great-offer__photo {
+        right: -97px;
+        max-width: 582px;
+        top: -16px;
+    }
+    .fave-slid-picture {
+        right: -92px;
+        max-width: 583px;
+        top: -16px;
+    }
+}
+
+@media (max-width: 760px){
+    .great-offer__photo{
+        display: none;
+    }
+    .fave-slid-picture{
+        display: none;
+    }
+    .great-offer-sec .container {
+        padding: 0;
+    }
+    .great-offer-slider {
+        padding-top: 0;
+        padding-bottom: 25px;
+    }
+    .favorable-loan-sec .liquidation__slider {
+        padding-bottom: 30px;
+    }
+    .great-offer-slider  .liquidation__info h1 {
+        max-width: 422px;
+        margin: 0;
+    }
+    .great-offer-slider .liquidation__info {
+        align-items: flex-start;
+    }
+    .great-offer-flex, .favorable-loan-cnt {
+        margin-top: 24px;
+        gap: 16px;
+        flex-wrap: wrap;
+    }
+    .great-offer-slider .liquidation__form {
+        margin-top: 60px;
+    }
+    .great-offer-slider .liquidation__info {
+        padding: 21px 20px 36px;
+    }
+    .great-offer-slider .liquidation__info .btn-white {
+        max-width: 324px;
+    }
+    .great-offer-sec {
+        margin-top: 5px;
+    }
+    .favorable-loan-sec .liquidation__info {
+        max-width: 665px;
+        padding: 19px 20px 36px;
+        align-items: flex-start;
+        text-align: left;
+    }
+    .favorable-loan-sec .liquidation__info h1 {
+        max-width: 300px;
+        width: 100%;
+        margin: 0;
+    }
+    .favorable-loan-sec .btn-white {
+        max-width: 324px;
+    }
+    .great-offer-pagination {
+        justify-content: center;
+    }
+}
+@media (max-width: 570px) {
+    .great-offer-item h3, .favorable-loan-cnt h3 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .great-offer-flex, .favorable-loan-cnt {
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+
+    .great-offer-item {
+        max-width: 134px;
+        padding: 6px 12px;
+    }
+
+    .great-offer-item p {
+        margin-top: 6px;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+   .favorable-loan-sec .liquidation__main {
+        margin-top: 8px;
+    }
+    .favorable-loan-box {
+        padding: 5px 12px;
+    }
+}

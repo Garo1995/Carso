@@ -1,0 +1,157 @@
+.owner-new-desired h2 span{
+    color: #33B6FF;
+}
+.owner-new-desired strong{
+    font-family: "Manrope";
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    display: block;
+    margin-top: 46px;
+    color: #132435;
+}
+
+.applic-trade__flex{
+    display: flex;
+    margin-top: 50px;
+}
+.applic-trade__cnt{
+    max-width: 943px;
+    width: 100%;
+    padding: 56px;
+    display: flex;
+    gap: 56px;
+    background: #EEF5FB;
+    border: 1px solid #C9DAE9;
+    border-radius: 4px 0 0 4px;
+}
+.applic-trade__item{
+    max-width: 387px;
+    width: 100%;
+}
+.applic-trade__item h3{
+    margin-bottom: 36px;
+}
+.applic-trade__item .sale-used__select{
+    margin-top: 12px;
+    max-width: 100%;
+}
+
+.applic-trade__details{
+    padding: 56px;
+    border-radius: 0 4px 4px 0;
+    background: #0C253A;
+    max-width: 476px;
+    width: 100%;
+}
+.applic-trade__details h3{
+    color: #FFFFFF;
+}
+.applic-trade__form{
+    margin-top: 36px;
+}
+.applic-trade__form .terms-contract__inp small{
+    color: #FFFFFF;
+}
+.applic-trade__form .btn-orange{
+    margin-top: 36px;
+    max-width: 100%;
+
+    padding: 15px 15px;
+}
+
+
+@media (max-width: 1399px){
+    .applic-trade__cnt {
+        gap: 30px;
+    }
+}
+@media (max-width: 1299px){
+    .applic-trade__cnt {
+        gap: 24px;
+        padding: 32px;
+    }
+
+    .applic-trade__details {
+        padding: 30px;
+        max-width: 400px;
+    }
+    .applic-trade__form .btn-orange {
+        margin-top: 24px;
+    }
+}
+@media (max-width: 1199px){
+    .applic-trade__flex {
+        flex-direction: column;
+    }
+    .applic-trade__cnt {
+        gap: 56px;
+        padding: 56px;
+        max-width: 100%;
+        border-radius: 4px 4px 0 0;
+    }
+    .applic-trade__item {
+        max-width: 415px;
+    }
+    .applic-trade__details {
+        padding: 56px;
+        max-width: 100%;
+        border-radius: 0 0 4px 4px;
+    }
+    .applic-trade__form {
+        display: flex;
+        align-items: flex-end;
+        gap: 12px;
+    }
+}
+@media (max-width: 1020px){
+    .applic-trade__flex {
+        margin-top: 26px;
+    }
+    .applic-trade__cnt {
+        gap: 40px;
+        padding: 32px;
+    }
+    .applic-trade__item h3 {
+        margin-bottom: 24px;
+    }
+    .applic-trade__details {
+        padding: 32px;
+        max-width: 100%;
+        border-radius: 0 0 4px 4px;
+    }
+    .applic-trade__form .btn-orange {
+        max-width: 172px;
+    }
+    .owner-new-desired strong {
+        margin-top: 35px;
+    }
+}
+@media (max-width: 760px){
+    .applic-trade__cnt {
+        gap: 24px;
+        padding: 20px;
+        flex-direction: column;
+    }
+    .applic-trade__item {
+        max-width: 100%;
+    }
+    .applic-trade__form {
+        gap: 0;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 12px;
+    }
+    .applic-trade__form .btn-orange {
+        max-width: 100%;
+    }
+    .applic-trade__details {
+        padding: 20px;
+    }
+    .owner-new-desired strong {
+        margin-top: 24px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+}

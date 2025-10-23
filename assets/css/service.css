@@ -1,0 +1,495 @@
+.service-offer-min{
+    margin-top: 46px;
+}
+.service-offer-pic{
+    display: flex;
+    align-items: end;
+    padding: 70px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 480px;
+}
+.service-offer-pic h1{
+    max-width: 880px;
+    width: 100%;
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 60px;
+}
+
+.service-offer-sec{
+    margin-top: 46px;
+}
+.service-offer-cnt{
+    display: flex;
+    justify-content: space-between;
+}
+.service-offer-info{
+    max-width: 929px;
+    width: 100%;
+    padding: 56px;
+    border: 2px solid #C9DAE9;
+    border-radius: 4px 0 0 4px;
+}
+.service-offer-info h3 b{
+    color: #33B6FF;
+}
+.service-offer-info p{
+    margin-top: 26px;
+    font-family: "Manrope";
+    font-size: 18px;
+    line-height: 26px;
+    color: #394B5C;
+}
+.service-offer-btn{
+    display: flex;
+    gap: 16px;
+    margin-top: 80px;
+}
+.service-offer-cnt .cars-dealership__inp input {
+    height: 50px;
+}
+.service-offer-cnt .btn-orange {
+    padding: 15px 25px;
+}
+.service-offer-cnt .cars-dealership__form {
+    margin-top: 36px;
+}
+.service-offer-cnt .largest-korean__tit p {
+    margin-top: 26px;
+    font-size: 18px;
+    line-height: 24px;
+}
+.service-offer-cnt .largest-korean__fon h2 {
+    margin-top: 0;
+}
+.service-offer-cnt .chan-prices__request {
+    margin-top: 12px;
+}
+
+
+.list-availab-serv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+.list-availab-pic{
+    display: flex;
+    max-width: 568px;
+    width: 100%;
+}
+.list-availab-info{
+    max-width: 690px;
+    width: 100%;
+}
+.list-availab-info h3{
+    font-weight: 700;
+}
+.list-availab-info ul{
+    margin-top: 26px;
+}
+.list-availab-info ul li{
+    font-family: "Manrope";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #5B6577;
+    margin-top: 16px;
+    position: relative;
+    padding-left: 20px;
+}
+.list-availab-info ul li:before{
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 0;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #2983D7;
+
+}
+.list-availab-btn{
+    margin-top: 56px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.list-availab-btn .btn-orange {
+    padding: 15px 20px;
+    max-width: max-content;
+}
+
+.main-reasons-main{
+    background: url("../img/resons.png") #EEF5FB;
+    border-radius: 4px;
+    padding: 60px 0;
+    max-width: 1540px;
+    width: 100%;
+    margin: 0 auto;
+}
+.main-reasons-cnt h2 span{
+    color: #33B6FF;
+}
+.main-reasons-wrap{
+    margin-top: 50px;
+    gap: 40px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.main-reasons-box{
+    width: calc(25% - 30px);
+    box-shadow: 6px -6px 0px 0px #6989A840;
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding: 32px 36px;
+    position: relative;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.main-reasons-box:before{
+    content: "";
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    top: 0;
+    left: 0;
+    background: #33B6FF;
+    clip-path: polygon(0 0, 0 100%, 100% 0);
+    border-radius: 4px 0 0 0;
+    transition: 0.3s;
+}
+.main-reasons-box:hover{
+    background: #132435;
+}
+.main-reasons-box:hover:before{
+    background: #F04800;
+}
+.main-reasons-box h4{
+    font-family: "Manrope";
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    color: #132435;
+    transition: 0.3s;
+
+}
+.main-reasons-box:hover h4{
+    color: #ffffff;
+}
+.main-reasons-box h4 span{
+    color: #2983D7;
+}
+.main-reasons-box p{
+    font-family: "Manrope";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 16px;
+    color: #6989A8;
+    margin-bottom: 24px;
+    transition: 0.3s;
+
+}
+.main-reasons-box .find-out-more span {
+    font-size: 16px;
+    line-height: 22px;
+    transition: 0.3s;
+
+}
+.main-reasons-box:hover .find-out-more span{
+    color: #FFFFFF;
+}
+
+
+
+.service-offer-cnt .largest-korean__fon {
+    flex-direction: column;
+    max-width: 490px;
+}
+
+
+.main-reasons-mobile{
+    display: none;
+}
+
+@media (max-width: 1399px){
+    .service-offer-pic h1 {
+        font-size: 46px;
+        line-height: 50px;
+    }
+    .service-offer-pic {
+        padding: 56px;
+    }
+
+}
+@media (max-width: 1360px){
+    .service-offer-info {
+        max-width: 880px;
+    }
+    .service-offer-btn {
+        margin-top: 36px;
+        flex-wrap: wrap;
+    }
+    .main-reasons-box {
+        width: calc(33% - 30px);
+    }
+}
+@media (max-width: 1299px){
+    .service-offer-pic {
+        padding: 36px;
+    }
+    .service-offer-cnt .largest-korean__fon {
+        max-width: 418px;
+    }
+    .service-offer-info {
+        padding: 44px;
+    }
+
+}
+
+@media (max-width: 1199px){
+    .service-offer-pic {
+        height: 360px;
+    }
+    .service-offer-cnt {
+        flex-direction: column;
+    }
+    .service-offer-info {
+        padding: 56px;
+        max-width: 100%;
+    }
+    .service-offer-cnt .largest-korean__fon {
+        max-width: 100%;
+        flex-direction: row;
+        align-items: center;
+    }
+    .service-offer-cnt .largest-korean__fon h2 {
+        margin-top: 0;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 32px;
+    }
+    .service-offer-cnt .largest-korean__tit p {
+        margin-top: 23px;
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .service-offer-cnt .largest-korean__tit{
+        max-width: 413px;
+        width: 100%;
+    }
+    .service-offer-cnt .largest-korean__forma {
+        max-width: 340px;
+    }
+    .list-availab-pic{
+        display: none;
+    }
+    .list-availab-info {
+        max-width: 890px;
+    }
+    .list-availab-btn {
+        margin-top: 34px;
+    }
+    .main-reasons-box {
+        width: calc(50% - 30px);
+    }
+
+
+
+
+
+}
+
+@media (max-width: 1020px){
+    .service-offer-pic {
+        height: 290px;
+        padding: 26px;
+    }
+    .service-offer-pic h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .service-offer-info {
+        padding: 36px;
+    }
+    .service-offer-info p {
+        margin-top: 13px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .service-offer-cnt .largest-korean__fon {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .service-offer-cnt .largest-korean__tit p {
+        margin-top: 12px;
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .service-offer-cnt .largest-korean__tit {
+        max-width: 100%;
+    }
+    .service-offer-cnt .largest-korean__forma {
+        max-width: 100%;
+    }
+    .service-offer-cnt .cars-dealership__form {
+        margin-top: 23px;
+    }
+    .cars-dealership__form form{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        gap: 16px;
+    }
+    .service-offer-cnt .btn-orange {
+        padding: 15px 14px;
+        max-width: 206px;
+    }
+    .largest-korean__fon .cars-dealership__inp {
+        max-width: 100%;
+        margin-bottom: 0;
+    }
+    .main-reasons-wrap {
+        margin-top: 27px;
+    }
+    .service-offer-min {
+        margin-top: 20px;
+    }
+
+}
+@media (max-width: 760px){
+    .service-offer-pic h1 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+
+    .service-offer-pic {
+        height: 230px;
+        padding: 20px;
+    }
+    .service-offer-info {
+        padding: 0;
+        margin-bottom: 36px;
+        border: unset;
+    }
+    .service-offer-info h3{
+        max-width: 500px;
+        width: 100%;
+    }
+    .service-offer-btn {
+        margin-top: 25px;
+    }
+    .service-offer-cnt .largest-korean__tit p {
+        margin-top: 12px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .service-offer-cnt .largest-korean__fon {
+        padding: 26px;
+        gap: 4px;
+    }
+    .list-availab-info ul li {
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 8px;
+    }
+    .list-availab-info ul li:before {
+        top: 5px;
+    }
+    .main-reasons-wrap {
+        gap: 20px;
+    }
+    .main-reasons-box {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 570px){
+    .service-offer-info h3 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .service-offer-btn {
+        flex-direction: column;
+    }
+    .cars-dealership__form form {
+        flex-direction: column;
+    }
+    .service-offer-cnt .btn-orange {
+        max-width: 100%;
+    }
+    .list-availab-btn {
+        margin-top: 24px;
+        flex-direction: column;
+        gap: 16px;
+    }
+    .list-availab-btn button {
+        width: 100%;
+        max-width: 100%;
+    }
+    .list-availab-btn .btn-orange {
+        max-width: 100%;
+    }
+    .main-reasons-main {
+        padding: 25px 0;
+    }
+    .main-reasons-box {
+        width: 100%;
+        max-width: 277px;
+        padding: 20px;
+    }
+    .main-reasons-wrap {
+        gap: 20px;
+    }
+    .main-reasons-box h4 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .main-reasons-box p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .service-offer-pic h1 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .service-offer-info p {
+        text-align: justify;
+    }
+    .main-reasons-box {
+        max-width: 237px;
+        min-height: 260px;
+    }
+    .main-reasons-wrap{
+        display: none;
+    }
+    .main-reasons-mobile{
+        display: block;
+        margin-top: 22px;
+        overflow: hidden;
+        margin-right: -20px;
+    }
+    .main-reasons-slider{
+        width: 530px;
+    }
+}
+
+@media (max-width: 430px){
+    .main-reasons-slider {
+        width: 502px;
+    }
+}

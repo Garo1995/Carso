@@ -1,0 +1,846 @@
+.sale-used-cars-fon{
+    margin-top: 50px;
+    background: #F9FBFE;
+    border-radius: 4px;
+    padding: 36px;
+}
+
+.sale-used__wrap{
+    margin-top: 27px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+}
+.sale-used__box{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    max-width: 443px;
+    width: 100%;
+}
+.sale-used__wrap span{
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+    color: #394B5C;
+    display: block;
+}
+.sale-used__select{
+    max-width: 209px;
+    width: 100%;
+}
+.sale-used__select label{
+    display: flex;
+    width: 100%;
+    margin-top: 6px;
+}
+
+
+
+.sale-used__select{
+    max-width: 390px;
+    width: 100%;
+}
+.sale-used__select .select2 {
+    width: 100% !important;
+}
+
+.select-style .select2{
+    width: 100% !important;
+}
+.sale-used__select .select2-container--default .select2-selection--single {
+    border: 2px solid #C9DAE9;
+    background: #FFFFFF;
+    width: 100%;
+    border-radius: 4px;
+    position: relative;
+    height: 50px;
+    padding: 14px 20px;
+    margin: 0;
+
+}
+.selection{
+    width: 100%;
+}
+.sale-used__select .select2-container .select2-selection--single .select2-selection__rendered{
+    color: #394B5C;
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+.sale-used__select .select2-selection__arrow{
+    top: 50%!important;
+    transform: translateY(-50%);
+}
+.sale-used__select .select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 22px;
+    width: 22px;
+    margin-right: 9px;
+}
+.sale-used__select .select2-container--default .select2-selection--single .select2-selection__arrow b {
+    border-width: 0;
+    position: absolute;
+    top: 4px;
+    right: 8px;
+    width: 9px;
+    height: 9px;
+    border-top: 2px solid rgba(51, 182, 255, 1);
+    border-right: 2px solid rgba(51, 182, 255, 1);
+    transform: rotate(135deg);
+    transition: 0.3s;
+    z-index: 11;
+    left: auto;
+    margin-left: 0;
+    margin-top: 0;
+}
+.sale-used__select .select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
+    transform: rotate(-45deg);
+    border-color: unset;
+    border-width: 0;
+    border-top: 2px solid rgba(51, 182, 255, 1);
+    border-right: 2px solid rgba(51, 182, 255, 1);
+    top: 8px;
+
+}
+
+.select-after-before .sale-used__select label:nth-child(1) .select2-container--default .select2-selection--single{
+    border-right: unset;
+    border-radius: 4px 0px 0px 4px;
+}
+.select-after-before .sale-used__select label:nth-child(2)  .select2-container--default .select2-selection--single{
+    border-left: unset;
+    border-radius: 0 4px 4px 0;
+}
+
+
+
+
+
+.select-after-before{
+    max-width: 443px;
+    width: 100%;
+}
+.select-after-before .sale-used__select{
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    position: relative;
+}
+.select-after-before .sale-used__select:before{
+    content: "";
+    position: absolute;
+    top: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 26px;
+    width: 1px;
+    background: #C9DAE9;
+    z-index: 11;
+}
+.select-after-before:last-child{
+    max-width: 390px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sale-used-cars__flex{
+    margin-top: 36px;
+    gap: 33px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.for-brand-stock{
+    justify-content: space-between;
+
+}
+.for-brand-stock .used-additionally__btn{
+    flex-direction: row;
+}
+.used-additionally>span{
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+    color: #394B5C;
+    display: block;
+    margin-bottom: 6px;
+}
+.used-additionally__flex{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.used-additionally__btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.used-cars-stock{
+    margin-top: 56px;
+}
+
+
+.best-vin-checked{
+    margin-top: 24px;
+    padding-bottom: 32px;
+    width: 100%;
+    position: relative;
+}
+.best-vin-checked-pic{
+    display: flex;
+    width: 100%;
+}
+.best-vin-checked .swiper-pagination-bullet {
+    width: 50px;
+    height: 6px;
+}
+
+.vin-checked__flex{
+    display: flex;
+    margin-bottom: 20px;
+    gap: 19px;
+    margin-top: 20px;
+}
+
+.special-offers-for .bestsellers__slider{
+    height: auto;
+}
+.vin-checked__cnt{
+    margin-bottom: 24px;
+}
+.vin-checked__icon{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 14px 16px;
+    gap: 8px;
+    border-radius: 4px;
+    background: #FFFFFF;
+    white-space: nowrap;
+}
+.vin-checked__icon span{
+    color: #132435;
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+}
+
+.car-characteristics__info{
+    margin-top: 24px;
+}
+.car-characteristics__info span{
+    font-family: "Manrope";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    color: #5B6577;
+}
+.car-characteristics__info ul{
+    margin-top: 12px;
+}
+.car-characteristics__info ul li{
+    display: flex;
+    align-items: end;
+    gap: 10px;
+    white-space: nowrap;
+    margin-top: 8px;
+}
+.car-characteristics__info ul li p{
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.special-offers-fon{
+    max-width: 406px;
+    width: 100%;
+    padding: 40px;
+    background: rgba(12, 37, 58, 1);
+    border-radius: 0 4px 4px 0;
+}
+
+.special-offers-fon .options-benefit__info span {
+    color: #ffffff;
+}
+.special-offers-fon .options-discount-credit p{
+    color: #E2ECF5;
+}
+
+.special-offers-fon .options-benefit__gift {
+    margin-top: 24px;
+    border-top: 1px solid #394B5C;
+    padding-top: 10px;
+}
+.special-offers-fon .price-car p, .special-offers-fon  .price-credit p {
+    color: #C9DAE9;
+}
+.special-offers-fon .price-car strong{
+    color: #FFFFFF;
+}
+
+.special-offers-fon .icon-trade{
+    color: #FFFFFF;
+}
+
+.special-offers-fon{
+    display: none;
+}
+.swiper-slide-active .special-offers-fon{
+    display: block;
+}
+.no-accidents-found{
+    margin-top: 6px;
+    margin-bottom: 26px;
+}
+.no-accidents-found p{
+    color: #394B5C;
+}
+.no-accidents-found ul{
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.no-accidents-found ul li{
+    padding: 8px 12px;
+    color: #132435;
+    font-family: "Manrope";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    border: 1px solid #C9DAE9;
+    border-radius: 4px;
+    white-space: nowrap;
+}
+.no-accidents-found ul li.call-red-discount{
+    color: rgba(206, 19, 19, 1);
+}
+.special-offers-for .best-separate__chang{
+    margin-bottom: 0;
+}
+.special-offers-for .bestsellers__slider .swiper-slide {
+    opacity: 1;
+}
+.bestsellers__slider .options-benefit__cnt{
+    margin-top: 46px;
+    padding-top: 24px;
+    border-top: 1px solid rgba(57, 75, 92, 1);
+}
+.best-separate .best-vin-checked-pic {
+    max-width: 367px;
+}
+
+
+.catalog-used-cars__tit{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.catalog-used-cars{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.catalog-used-cars ul{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.catalog-used-cars ul li{
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.catalog-used-cars ul li span{
+    border-bottom: 1px dashed #6989A8;
+}
+.catalog-used-cars ul .catalog-sort__act {
+    color: #33B6FF;
+}
+.catalog-used-cars ul .catalog-sort__act span{
+    border-bottom: 1px dashed #33B6FF;
+}
+.arrow-top{
+    width: 12px;
+    height: 14px;
+    content: url("../img/icons/arrow-top.svg");
+}
+
+
+.catalog-used__wrap{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.catalog-used__box{
+    background: #132435;
+    padding: 40px;
+    width: calc(33.333333% - 30px);
+    border-radius: 4px;
+}
+.catalog-used__wrap .best-separate{
+    max-width: calc(33.333333% - 30px);
+}
+.catalog-used__box h3{
+    color: #FFFFFF;
+}
+.catalog-used__box ul{
+    margin-top: 36px;
+}
+.catalog-used__box ul li{
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+    gap: 16px;
+}
+.receive-offer span{
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.receive-offer p{
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #C9DAE9;
+}
+
+.catalog-used__box .cars-dealership__form {
+    margin-top: 52px;
+}
+
+.catalog-used__box .cars-dealership__inp {
+    max-width: 100%;
+    margin-bottom: 16px;
+}
+.catalog-used__box .cars-dealership__inp input {
+    height: 50px;
+}
+.catalog-used__box .btn-orange {
+    padding: 15px 35px;
+    max-width: 100%;
+}
+
+
+.btn-more-cars{
+    margin: 46px auto 0;
+    border: 2px solid #C9DAE9;
+    max-width: 248px;
+    width: 100%;
+    height: 50px;
+    padding: 14px 20px;
+    gap: 10px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    color: #394B5C;
+    position: relative;
+}
+.btn-more-cars:after {
+    content: "";
+    position: relative;
+    border-top: 2px solid #394B5C;
+    border-right: 2px solid #394B5C;
+    width: 9px;
+    height: 9px;
+    transition: 0.3s;
+    transform: rotate(135deg);
+    top: -2px;
+}
+
+.frequently-asked-quest{
+    display: flex;
+    align-items: center;
+    margin-top: 46px;
+    gap: 16px;
+}
+.frequently-asked-tit .title-style-circle {
+    font-weight: 800;
+}
+.frequently-asked-tit{
+    align-items: center;
+}
+
+.collections-data__flex{
+    margin-top: 50px;
+    display: flex;
+    align-items: start;
+    border: 1px solid #C9DAE9;
+    border-radius: 4px;
+    padding: 36px;
+}
+.collections-data__box{
+    max-width: 475px;
+    width: 100%;
+}
+
+.collections-data__year {
+    margin-left: 55px;
+    padding-left: 55px;
+    border-left: 1px dashed #D0D8E0;
+    max-width: 832px;
+    width: 100%;
+}
+.collections-data__flex .btn-lin-href {
+    padding: 12px 16px;
+}
+
+.vin-checked__stock{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 24px 0 4px;
+}
+.vin-checked__also{
+    padding: 14px 16px;
+    border-radius: 4px;
+    background: #ffffff;
+    color: rgba(19, 36, 53, 1);
+}
+.vin-checked__also span{
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    color: rgba(19, 36, 53, 1);
+}
+.vin-checked__discount span{
+    color: rgba(206, 19, 19, 1);
+}
+@media (max-width: 1499px){
+    .sale-used__box {
+        gap: 24px;
+        max-width: 422px;
+    }
+    .sale-used__wrap {
+        gap: 30px;
+    }
+    .sale-used__select {
+        max-width: 310px;
+    }
+    .select-after-before:last-child {
+        max-width: 310px;
+    }
+    .select-after-before {
+        max-width: 422px;
+    }
+    .used-additionally__flex {
+        flex-wrap: wrap;
+    }
+    .catalog-used__wrap {
+        gap: 40px 30px;
+    }
+
+    .catalog-used__wrap .no-accidents-found ul {
+        gap: 8px 12px;
+        flex-wrap: wrap;
+    }
+    .catalog-used__wrap .best-separate__chang {
+        margin-top: 5px;
+        margin-bottom: 6px;
+    }
+    .catalog-used__wrap .btn-black {
+        padding: 15px 20px;
+    }
+
+}
+@media (max-width: 1299px){
+    .sale-used__wrap {
+        gap: 16px 24px;
+    }
+
+    .sale-used__box {
+        max-width: 48%;
+    }
+    .sale-used__select {
+        max-width: 345px;
+    }
+    .select-after-before:last-child {
+        max-width: 423px;
+    }
+    .sale-used-cars-fon {
+        margin-top: 35px;
+        padding: 24px;
+    }
+    .catalog-used__wrap {
+        gap: 30px 20px;
+    }
+    .catalog-used__box {
+        padding: 30px;
+        width: calc(33.333333% - 15px);
+    }
+    .catalog-used__wrap .best-separate {
+        max-width: calc(33.333333% - 15px);
+        padding: 20px;
+    }
+    .frequently-asked-quest {
+        margin-top: 20px;
+    }
+    .collections-data__flex {
+        margin-top: 24px;
+        padding: 24px;
+    }
+    .collections-data__flex {
+        padding: 36px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .collections-data__year {
+        margin-left: 0;
+        padding-left: 0;
+        border-left: unset;
+        max-width: 100%;
+        border-top: 1px dashed #D0D8E0;
+        margin-top: 36px;
+        padding-top: 36px;
+    }
+}
+@media (max-width: 1199px){
+    .sale-used__wrap {
+        justify-content: space-between;
+    }
+    .select-after-before {
+        max-width: 48%;
+    }
+    .sale-used__select {
+        max-width: 48%;
+    }
+    .select-after-before:last-child {
+        max-width: 48%;
+    }
+   .special-offers-for  .bestsellers-for__car {
+        padding: 40px 20px 32px;
+        max-width: 474px;
+    }
+    .special-offers-fon {
+        max-width: 365px;
+        padding: 30px;
+    }
+    .vin-checked__flex {
+        gap: 12px;
+    }
+    .vin-checked__icon {
+        padding: 11px 12px;
+    }
+    .catalog-used__wrap {
+        gap: 30px 30px;
+    }
+    .catalog-used__box {
+        width: calc(50% - 20px);
+    }
+    .catalog-used__wrap .best-separate {
+        max-width: calc(50% - 20px);
+    }
+    .catalog-used-cars__tit {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+
+}
+@media (max-width: 1020px){
+    .sale-used-cars h2 {
+        max-width: 430px;
+    }
+    .sale-used__wrap {
+        flex-direction: column;
+    }
+    .sale-used__box {
+        max-width: 100%;
+    }
+    .sale-used__select {
+        max-width: 100%;
+    }
+    .sale-used__select {
+        max-width: 100%;
+    }
+    .select-after-before:last-child {
+        max-width: 100%;
+    }
+    .sale-used-cars__flex {
+        margin-top: 28px;
+        gap: 24px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .used-additionally__btn {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .special-offers-for .bestsellers__slider .swiper-slide.swiper-slide-active .bestsellers__box{
+        display: none;
+    }
+    .special-offers-for .swiper-slide.swiper-slide-active .best-separate {
+        display: block;
+    }
+    .special-offers-for .best-separate {
+        max-width: 442px;
+    }
+    .special-offers-for .bestsellers__slider .swiper-slide.swiper-slide-active {
+        width: 450px !important;
+    }
+    .catalog-used__box{
+        display: none;
+    }
+    .catalog-used__wrap .best-separate {
+        max-width: 100%;
+    }
+    .catalog-used__wrap .best-vin-checked {
+        max-width: 372px;
+    }
+    .collections-data__flex .btn-lin-href {
+        padding: 6px 12px;
+    }
+    .collections-data__year {
+        margin-top: 24px;
+        padding-top: 24px;
+    }
+
+
+    .select-after-before {
+        max-width: 100%;
+    }
+
+
+
+}
+@media (max-width: 760px){
+    .used-additionally{
+        display: none;
+    }
+    .sale-used__wrap span {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .catalog-used__wrap .best-separate{
+        background: #FFFFFF;
+    }
+    .special-offers-for .best-separate{
+        background: #FFFFFF;
+
+    }
+    .special-offers-for  .bestsellers__slider {
+        width: 1200px;
+    }
+    .collections-data__flex {
+        padding: 20px;
+    }
+    .special-offers-for .bestsellers__slider .swiper-slide.swiper-slide-active {
+        width: auto !important;
+    }
+}
+
+@media (max-width: 570px){
+    .frequently-asked-quest {
+        margin-top: 20px;
+        flex-direction: column;
+    }
+    .frequently-asked-quest .btn-config {
+        width: 100%;
+    }
+    .no-accidents-found ul li {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .catalog-used-cars {
+        gap: 18px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .catalog-used-cars__tit h2{
+        max-width: 250px;
+        width: 100%;
+    }
+    .catalog-used-cars ul li {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .special-offers-for .best-separate {
+        max-width: 290px;
+    }
+    .no-accidents-found ul {
+        margin-top: 10px;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+    .best-vin-checked .swiper-pagination-bullet {
+        width: 24px;
+    }
+    .sale-used__box {
+        max-width: 100%;
+        flex-direction: column;
+        gap: 18px;
+    }
+    .sale-used__select .select2-container .select2-selection--single .select2-selection__rendered {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .used-additionally__btn {
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .for-brand-stock .used-additionally__btn {
+        flex-direction: column;
+    }
+}

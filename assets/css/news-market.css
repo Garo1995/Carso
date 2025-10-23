@@ -1,0 +1,226 @@
+.new-market-sec{
+    margin-top: 64px;
+}
+.new-market-sec h1{
+    color: #132435;
+}
+.new-market-flex{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px 40px;
+}
+.new-market-box{
+    width: calc(33.333333% - 28px);
+
+}
+.new-market-photo{
+    display: flex;
+}
+.new-market-box span{
+    display: block;
+    margin-top: 24px;
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #738CA7;
+}
+.new-market-box h4{
+    margin-top: 12px;
+    font-size: 22px;
+    line-height: 30px;
+    min-height: 60px;
+}
+.new-market-box p{
+    margin-top: 24px;
+    margin-bottom: 36px;
+}
+
+
+.market-single-sec{
+    margin-top: 46px;
+}
+.market-single h4{
+    display: block;
+    margin-top: 56px;
+    color: #738CA7;
+    font-family: "Manrope";
+}
+.market-single h1{
+    color: #132435;
+    margin-top: 12px;
+    margin-bottom: 50px;
+}
+.market-single p{
+    margin-top: 20px;
+    font-family: "Manrope";
+    font-size: 18px;
+    line-height: 26px;
+}
+.market-single p a{
+    font-family: "Manrope";
+    text-align: left;
+    color: #2983D7;
+}
+
+.market-single-photo{
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+.market-single-photo .all-review{
+    position: absolute;
+    top: 56px;
+    left: 56px;
+}
+.market-single-photo img{
+    width: 100%;
+}
+
+
+.privacy-policy-sec{
+    margin-top: 46px;
+}
+.privacy-policy__info h1{
+    margin-bottom: 50px;
+    color: #132435;
+}
+.privacy-policy__info h3{
+    margin-top: 46px;
+    margin-bottom: 26px;
+}
+.privacy-policy__info p{
+    font-family: "Manrope";
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 20px;
+    color: #394B5C;
+}
+.privacy-policy__info p a{
+    color: #2983D7;
+}
+
+.privacy-policy__info ul li{
+    font-family: "Manrope";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    margin-top: 20px;
+    color: #394B5C;
+}
+
+
+
+@media (max-width: 1199px){
+    .new-market-box {
+        width: calc(50% - 28px);
+    }
+    .market-single-sec {
+        margin-top: 35px;
+    }
+    .market-single h4 {
+        margin-top: 44px;
+    }
+    .market-single-photo .all-review {
+        top: 36px;
+        left: 36px;
+    }
+}
+@media (max-width: 1020px){
+    .new-market-sec {
+        margin-top: 20px;
+    }
+    .new-market-flex {
+        margin-top: 26px;
+        gap: 46px 40px;
+    }
+    .market-single p {
+        margin-top: 15px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .market-single-sec {
+        margin-top: 20px;
+    }
+    .market-single-photo .all-review {
+        top: 24px;
+        left: 24px;
+    }
+    .privacy-policy-sec {
+        margin-top: 20px;
+    }
+    .privacy-policy__info p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .privacy-policy__info h1 {
+        margin-bottom: 26px;
+    }
+    .privacy-policy__info h3 {
+        margin-top: 36px;
+        margin-bottom: 16px;
+    }
+}
+@media (max-width: 760px){
+    .new-market-box {
+        width: 100%;
+        max-width: 450px;
+    }
+    .new-market-box h4 {
+        min-height: auto;
+    }
+    .new-market-box p {
+        margin-top: 16px;
+        margin-bottom: 12px;
+    }
+    .market-single h4 {
+        margin-top: 16px;
+    }
+    .market-single h1 {
+        margin-top: 12px;
+        margin-bottom: 22px;
+    }
+    .market-single p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .privacy-policy__info ul li {
+        font-size: 16px;
+        line-height: 22px;
+        margin-top: 15px;
+    }
+}
+@media (max-width: 570px){
+    .market-single h1 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .market-single h4 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .market-single-photo .all-review {
+        top: 0;
+        left: 0;
+        position: relative;
+    }
+    .market-single-photo {
+        flex-direction: column;
+    }
+    .privacy-policy__info p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 15px;
+    }
+    .privacy-policy__info h1 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .privacy-policy__info ul li {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}

@@ -1,0 +1,232 @@
+.stock-page__sec{
+    margin-top: 45px;
+}
+.stock-page__sec h1{
+    color: #132435;
+}
+.stock-page__wrap{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 120px 40px;
+}
+.stock-page__box{
+    width: calc(50% - 20px);
+}
+.stock-page__photo{
+    display: flex;
+    align-items: flex-end;
+    padding: 36px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 484px;
+}
+.stock-page__photo h3{
+    color: #ffffff;
+    font-size: 36px;
+    line-height: 44px;
+}
+.stock-page__box strong{
+    display: block;
+    margin-top: 36px;
+    font-family: "Manrope";
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    color: #000000;
+}
+.stock-page__box p{
+    color: #394B5C;
+    font-family: "Manrope";
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 36px;
+    margin-top: 14px;
+}
+
+.customer-reviews__bg{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 685px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 56px;
+    position: relative;
+    background-position: center;
+}
+
+.customer-reviews__bg .video-click__icon {
+    width: 86px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.all-review{
+    max-width: 160px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: #FFFFFF;
+    height: 50px;
+    border-radius: 4px;
+    transition: 0.3s;
+    color: #394B5C;
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+
+}
+
+.customer-reviews__star ul{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 36px;
+}
+.customer-reviews__star ul li .icons{
+    font-size: 36px;
+    color: #F8A70A;
+}
+.customer-reviews__star ul li .icon-star-rigth{
+    width: 36px;
+}
+.customer-reviews__star h3{
+    color: #ffffff;
+    margin-top: 6px;
+    font-weight: 700;
+}
+@media (max-width: 1399px){
+
+    .stock-page__photo {
+        padding: 26px;
+        height: 400px;
+    }
+    .stock-page__wrap {
+        margin-top: 46px;
+        gap: 40px 40px;
+    }
+
+    .customer-reviews__bg {
+        height: 611px;
+    }
+}
+@media (max-width: 1199px){
+    .stock-page__photo {
+        height: 320px;
+    }
+    .stock-page__photo h3 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .stock-page__box strong {
+        margin-top: 26px;
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .stock-page__box p {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 26px;
+    }
+
+    .customer-reviews__bg {
+        height: 478px;
+        padding: 26px;
+    }
+    .customer-reviews__bg .video-click__icon {
+        width: 62px;
+    }
+    .customer-reviews__star ul {
+        gap: 12px;
+        margin-bottom: 14px;
+    }
+    .buying-car__sec {
+        margin-top: 20px;
+    }
+
+
+}
+@media (max-width: 1020px){
+    .stock-page__wrap {
+        margin-top: 26px;
+        gap: 26px;
+    }
+    .stock-page__box {
+        width: calc(50% - 14px);
+    }
+    .stock-page__photo {
+        padding: 16px;
+        height: 220px;
+    }
+    .stock-page__photo h3 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .stock-page__box strong {
+        margin-top: 16px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .stock-page__sec {
+        margin-top: 20px;
+    }
+}
+@media (max-width: 760px){
+    .stock-page__wrap {
+        margin-top: 22px;
+        gap: 56px 0;
+    }
+    .stock-page__box {
+        width: 100%;
+    }
+}
+@media (max-width: 570px){
+    .customer-reviews__bg {
+        padding: 20px;
+    }
+    .all-review {
+        max-width: 137px;
+        gap: 7px;
+        height: 44px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .customer-reviews__star ul li .icons {
+        font-size: 20px;
+    }
+    .customer-reviews__star ul li .icon-star-rigth {
+        width: 20px;
+    }
+    .customer-reviews__star h3 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .customer-reviews__star ul {
+        gap: 9px;
+        margin-bottom: 8px;
+    }
+    .customer-reviews__bg .video-click__icon {
+        width: 50px;
+    }
+}
+@media (max-width: 460px){
+    .stock-page__sec h1 {
+        color: #132435;
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .stock-page__photo {
+        height: 196px;
+    }
+    .stock-page__box .btn-black{
+        max-width: 100%;
+        width: 100%;
+    }
+}
